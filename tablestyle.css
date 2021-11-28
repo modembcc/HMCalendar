@@ -93,6 +93,10 @@ body {
     color: slategrey;
 }
 
+#month_calendar_inner .in_range .num{
+    color: blue;
+}
+
 /* ============================
 				Mobile Responsiveness
    ============================*/
