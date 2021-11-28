@@ -19,7 +19,7 @@ body {
   grid-auto-rows: 1fr;
 }
 
-#season {
+.season {
     text-align: center;
     margin: 0% 5%;
 }
