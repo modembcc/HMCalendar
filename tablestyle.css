@@ -35,11 +35,6 @@ body {
 	border: 1px solid;
 }
 
-#month_calendar_inner #days_of_week {
-
-}
-
-
 #month_calendar_inner #days_of_week th {
 	text-align: center;
 	text-transform: uppercase;
@@ -54,10 +49,6 @@ body {
 	min-height: 50px;
   display: flex;
   flex-direction: column;
-}
-
-#month_calendar_inner .days li:hover {
-
 }
 
 #month_calendar_inner .date {
