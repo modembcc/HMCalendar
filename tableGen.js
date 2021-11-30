@@ -16,11 +16,11 @@ $(document).ready(function () {
   var seas = [
     "Error",
     "Spring_1",
-    "summer_1",
+    "Summer_1",
     "Fall_1",
     "Winter_1",
     "Spring_2",
-    "summer_2",
+    "Summer_2",
     "Fall_2",
     "Winter_2"
   ]
@@ -29,6 +29,7 @@ $(document).ready(function () {
     $("body").append(
         '<div id="' + seas[k] +'" class="season"></div>'
     );
+    $("#"+seas[k]).append('<h1 class="season_title">' + seas[k].slice(0,-2) + ', Year ' + seas[k].slice(-1) + '</h1>');
     $("#"+seas[k]).append(
         '<table id="month_calendar_inner" class="table table-bordered"></table>'
     );
@@ -66,7 +67,7 @@ $(document).ready(function () {
                 $(".the_days")
                     .last()
                     .append(
-                    '<td class="day_cell in_range" >' +
+                    '<td id="' + di.toString() + '" class="day_cell in_range" >' +
                         '<div class = "date"> <span class="num">' +
                         di.toString() +
                         "</span></div>" +
@@ -91,7 +92,7 @@ $(document).ready(function () {
     else{
         inactive = !inactive
     }
-    if(di<0){
+    if(di<=0){
         di+=30;
     }
   }
