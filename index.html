@@ -5,940 +5,1075 @@
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     </head>
     <body>
-        <div id="spring_1" class="season">
-            <h2>Spring, Year 1</h2>
+        <div id="Spring_1" class="season">
+            <h1 class="season_title">Spring, Year 1</h1>
             <table id="month_calendar_inner" class="table table-bordered">
-                <tr id="days_of_week" class="active weekdays">
-                    <th class="day_of_week" scope="col">
-                        Sunday
-                    </th>
-                    <th class="day_of_week" scope="col">
-                        Monday
-                    </th>
-                    <th class="day_of_week" scope="col">
-                        Tuesday
-                    </th>
-                    <th class="day_of_week" scope="col">
-                        Wednesday
-                    </th>
-                    <th class="day_of_week" scope="col">
-                        Thursday
-                    </th>
-                    <th class="day_of_week" scope="col">
-                        Friday
-                    </th>
-                    <th class="day_of_week" scope="col">
-                        Saturday
-                    </th>
-                </tr>
-            
-            <tbody>
-                <tr>
-                    <td class="day_cell out_of_range">
-                        <div class="date">
-                        <span class="num">27</span>
-                        </div>
-                    </td>
-                    <td class="day_cell out_of_range">
-                        <div class="date">
-                        <span class="num">28</span>
-                        </div>
-                    </td>
-                    <td class="day_cell out_of_range">
-                        <div class="date">
-                        <span class="num">29</span>
-                        </div>
-                    </td>
-                    <td class="day_cell out_of_range">
-                        <div class="date">
-                        <span class="num">30</span>
-                        </div>
-                    </td>
-                    <td class="day_cell out_of_range">
-                        <div class="date">
-                        <span class="num">31</span>
-                        </div>
-                    </td>
-                    <td class="day_cell in_range">
-                        <div class="date">
-                        <span class="num">1</span>
-                        </div>
-                    </td>
-                    <td class="day_cell in_range">
-                        <div class="date">
-                        <span class="num">2</span>
-                        </div>
-                    </td>
-                </tr>
-                <tr>
-                    <td class="day_cell in_range">
-                        <div class="date">
-                        <span class="num">3</span>
-                        </div>
-                    </td>
-                    <td class="day_cell in_range">
-                        <div class="date">
-                        <span class="num">4</span>
-                        </div>
-                    </td>
-                    <td class="day_cell in_range">
-                        <div class="date">
-                        <span class="num">5</span>
-                        </div>
-                    </td>
-                    <td class="day_cell in_range">
-                        <div class="date">
-                        <span class="num">6</span>
-                        </div>
-                    </td>
-                    <td class="day_cell in_range">
-                        <div class="date">
-                        <span class="num">7</span>
-                        </div>
-                    </td>
-                    <td class="day_cell in_range">
-                        <div class="date">
-                        <span class="num">8</span>
-                        </div>
-                    </td>
-                    <td class="day_cell in_range">
-                        <div class="date">
-                        <span class="num">9</span>
-                        </div>
-                    </td>
-                </tr>
-                <tr>
-                    <td class="day_cell in_range">
-                        <div class="date">
-                        <span class="num">10</span>
-                        </div>
-                    </td>
-                    <td class="day_cell in_range">
-                        <div class="date">
-                        <span class="num">11</span>
-                        </div>
-                    </td>
-                    <td class="day_cell in_range">
-                        <div class="date">
-                        <span class="num">12</span>
-                        </div>
-                    </td>
-                    <td class="day_cell in_range">
-                        <div class="date">
-                        <span class="num">13</span>
-                        </div>
-                    </td>
-                    <td class="day_cell in_range">
-                        <div class="date">
-                        <span class="num">14</span>
-                        </div>
-                    </td>
-                    <td class="day_cell in_range">
-                        <div class="date">
-                        <span class="num">15</span>
-                        </div>
-                    </td>
-                    <td class="day_cell in_range">
-                        <div class="date">
-                        <span class="num">16</span>
-                        </div>
-                    </td>
-                </tr>
-                <tr>
-                    <td class="day_cell in_range">
-                        <div class="date">
-                        <span class="num">17</span>
-                        </div>
-                    </td>
-                    <td class="day_cell in_range">
-                        <div class="date">
-                        <span class="num">18</span>
-                        </div>
-                    </td>
-                    <td class="day_cell in_range">
-                        <div class="date">
-                        <span class="num">19</span>
-                        </div>
-                    </td>
-                    <td class="day_cell in_range">
-                        <div class="date">
-                        <span class="num">20</span>
-                        </div>
-                    </td>
-                    <td class="day_cell in_range">
-                        <div class="date has_events">
-                            <span class="num">21</span>
-                        </div>
-                        <div class="event tips" data-toggle="popover">
-                            <span class="calendar-color" style="background-color: #e44749;"></span>
-                            <div class="qtip hidden">
-                                <div class="title">
-                                    RESILIENCE - Screening and Discussion
-                                    <span class='event_time'>
-                                        <span class='glyphicon glyphicon-time'></span> 6:00pm - 8:30pm (2h 30m)
-                                    </span>
-                                </div>
-                                <hr />
-                                <div class="title">
-                                    RESILIENCE - Screening and Discussion
-                                    <span class='event_time'>
-                                        <span class='glyphicon glyphicon-time'></span> 6:00pm - 8:30pm (2h 30m)
-                                    </span>
-                                </div>
-                            </div>
-                        </div>
-                    </td>
-                    <td class="day_cell in_range">
-                        <div class="date">
-                        <span class="num">22</span>
-                        </div>
-                    </td>
-                    <td class="day_cell in_range">
-                        <div class="date">
-                        <span class="num">23</span>
-                        </div>
-                    </td>
-                </tr>
-                <tr>
-                    <td class="day_cell in_range">
-                        <div class="date">
-                        <span class="num">24</span>
-                        </div>
-                    </td>
-                    <td class="day_cell in_range">
-                        <div class="date">
-                        <span class="num">25</span>
-                        </div>
-                    </td>
-                    <td class="day_cell in_range">
-                        <div class="date">
-                        <span class="num">26</span>
-                        </div>
-                    </td>
-                    <td class="day_cell in_range">
-                        <div class="date">
-                        <span class="num">27</span>
-                        </div>
-                    </td>
-                    <td class="day_cell in_range">
-                        <div class="date">
-                        <span class="num">28</span>
-                        </div>
-                    </td>
-                    <td class="day_cell in_range">
-                        <div class="date">
-                        <span class="num">29</span>
-                        </div>
-                    </td>
-                    <td class="day_cell in_range">
-                        <div class="date">
-                        <span class="num">30</span>
-                        </div>
-                    </td>
-                </tr>
-            </tbody>
+                <tbody class="days_of_week">
+                    <tr id="days_of_week" class="active weekdays">
+                        <th class="day_of_week" scope="col">Sunday</th>
+                        <th class="day_of_week" scope="col">Monday</th>
+                        <th class="day_of_week" scope="col">Tuesday</th>
+                        <th class="day_of_week" scope="col">Wednesday</th>
+                        <th class="day_of_week" scope="col">Thursday</th>
+                        <th class="day_of_week" scope="col">Friday</th>
+                        <th class="day_of_week" scope="col">Saturday</th>
+                    </tr>
+                    <tr class="the_days">
+                        <td class="day_cell out_of_range">
+                            <div class="date"> <span class="num">30</span></div>
+                        </td>
+                        <td id="1" class="day_cell in_range">
+                            <div class="date"> <span class="num">1</span></div>
+                        </td>
+                        <td id="2" class="day_cell in_range">
+                            <div class="date"> <span class="num">2</span></div>
+                        </td>
+                        <td id="3" class="day_cell in_range">
+                            <div class="date"> <span class="num">3</span></div>
+                        </td>
+                        <td id="4" class="day_cell in_range">
+                            <div class="date"> <span class="num">4</span></div>
+                        </td>
+                        <td id="5" class="day_cell in_range">
+                            <div class="date"> <span class="num">5</span></div>
+                        </td>
+                        <td id="6" class="day_cell in_range">
+                            <div class="date"> <span class="num">6</span></div>
+                        </td>
+                    </tr>
+                    <tr class="the_days">
+                        <td id="7" class="day_cell in_range">
+                            <div class="date"> <span class="num">7</span></div>
+                        </td>
+                        <td id="8" class="day_cell in_range">
+                            <div class="date"> <span class="num">8</span></div>
+                        </td>
+                        <td id="9" class="day_cell in_range">
+                            <div class="date"> <span class="num">9</span></div>
+                        </td>
+                        <td id="10" class="day_cell in_range">
+                            <div class="date"> <span class="num">10</span></div>
+                        </td>
+                        <td id="11" class="day_cell in_range">
+                            <div class="date"> <span class="num">11</span></div>
+                        </td>
+                        <td id="12" class="day_cell in_range">
+                            <div class="date"> <span class="num">12</span></div>
+                        </td>
+                        <td id="13" class="day_cell in_range">
+                            <div class="date"> <span class="num">13</span></div>
+                        </td>
+                    </tr>
+                    <tr class="the_days">
+                        <td id="14" class="day_cell in_range">
+                            <div class="date"> <span class="num">14</span></div>
+                        </td>
+                        <td id="15" class="day_cell in_range">
+                            <div class="date"> <span class="num">15</span></div>
+                        </td>
+                        <td id="16" class="day_cell in_range">
+                            <div class="date"> <span class="num">16</span></div>
+                        </td>
+                        <td id="17" class="day_cell in_range">
+                            <div class="date"> <span class="num">17</span></div>
+                        </td>
+                        <td id="18" class="day_cell in_range">
+                            <div class="date"> <span class="num">18</span></div>
+                        </td>
+                        <td id="19" class="day_cell in_range">
+                            <div class="date"> <span class="num">19</span></div>
+                        </td>
+                        <td id="20" class="day_cell in_range">
+                            <div class="date"> <span class="num">20</span></div>
+                        </td>
+                    </tr>
+                    <tr class="the_days">
+                        <td id="21" class="day_cell in_range">
+                            <div class="date"> <span class="num">21</span></div>
+                        </td>
+                        <td id="22" class="day_cell in_range">
+                            <div class="date"> <span class="num">22</span></div>
+                        </td>
+                        <td id="23" class="day_cell in_range">
+                            <div class="date"> <span class="num">23</span></div>
+                        </td>
+                        <td id="24" class="day_cell in_range">
+                            <div class="date"> <span class="num">24</span></div>
+                        </td>
+                        <td id="25" class="day_cell in_range">
+                            <div class="date"> <span class="num">25</span></div>
+                        </td>
+                        <td id="26" class="day_cell in_range">
+                            <div class="date"> <span class="num">26</span></div>
+                        </td>
+                        <td id="27" class="day_cell in_range">
+                            <div class="date"> <span class="num">27</span></div>
+                        </td>
+                    </tr>
+                    <tr class="the_days">
+                        <td id="28" class="day_cell in_range">
+                            <div class="date"> <span class="num">28</span></div>
+                        </td>
+                        <td id="29" class="day_cell in_range">
+                            <div class="date"> <span class="num">29</span></div>
+                        </td>
+                        <td id="30" class="day_cell in_range">
+                            <div class="date"> <span class="num">30</span></div>
+                        </td>
+                        <td class="day_cell out_of_range">
+                            <div class="date"> <span class="num">1</span></div>
+                        </td>
+                        <td class="day_cell out_of_range">
+                            <div class="date"> <span class="num">2</span></div>
+                        </td>
+                        <td class="day_cell out_of_range">
+                            <div class="date"> <span class="num">3</span></div>
+                        </td>
+                        <td class="day_cell out_of_range">
+                            <div class="date"> <span class="num">4</span></div>
+                        </td>
+                    </tr>
+                </tbody>
             </table>
         </div>
-        <div id="summer_1" class="season">
-            <h2>Summer, Year 1</h2>
+        <div id="Summer_1" class="season">
+            <h1 class="season_title">Summer, Year 1</h1>
             <table id="month_calendar_inner" class="table table-bordered">
-                <tr id="days_of_week" class="active weekdays">
-                    <th class="day_of_week" scope="col">
-                        Sunday
-                    </th>
-                    <th class="day_of_week" scope="col">
-                        Monday
-                    </th>
-                    <th class="day_of_week" scope="col">
-                        Tuesday
-                    </th>
-                    <th class="day_of_week" scope="col">
-                        Wednesday
-                    </th>
-                    <th class="day_of_week" scope="col">
-                        Thursday
-                    </th>
-                    <th class="day_of_week" scope="col">
-                        Friday
-                    </th>
-                    <th class="day_of_week" scope="col">
-                        Saturday
-                    </th>
-                </tr>
-            
-            <tbody>
-                <tr>
-                    <td class="day_cell out_of_range">
-                        <div class="date">
-                        <span class="num">27</span>
-                        </div>
-                    </td>
-                    <td class="day_cell out_of_range">
-                        <div class="date">
-                        <span class="num">28</span>
-                        </div>
-                    </td>
-                    <td class="day_cell out_of_range">
-                        <div class="date">
-                        <span class="num">29</span>
-                        </div>
-                    </td>
-                    <td class="day_cell out_of_range">
-                        <div class="date">
-                        <span class="num">30</span>
-                        </div>
-                    </td>
-                    <td class="day_cell out_of_range">
-                        <div class="date">
-                        <span class="num">31</span>
-                        </div>
-                    </td>
-                    <td class="day_cell in_range">
-                        <div class="date">
-                        <span class="num">1</span>
-                        </div>
-                    </td>
-                    <td class="day_cell in_range">
-                        <div class="date">
-                        <span class="num">2</span>
-                        </div>
-                    </td>
-                </tr>
-                <tr>
-                    <td class="day_cell in_range">
-                        <div class="date">
-                        <span class="num">3</span>
-                        </div>
-                    </td>
-                    <td class="day_cell in_range">
-                        <div class="date">
-                        <span class="num">4</span>
-                        </div>
-                    </td>
-                    <td class="day_cell in_range">
-                        <div class="date">
-                        <span class="num">5</span>
-                        </div>
-                    </td>
-                    <td class="day_cell in_range">
-                        <div class="date">
-                        <span class="num">6</span>
-                        </div>
-                    </td>
-                    <td class="day_cell in_range">
-                        <div class="date">
-                        <span class="num">7</span>
-                        </div>
-                    </td>
-                    <td class="day_cell in_range">
-                        <div class="date">
-                        <span class="num">8</span>
-                        </div>
-                    </td>
-                    <td class="day_cell in_range">
-                        <div class="date">
-                        <span class="num">9</span>
-                        </div>
-                    </td>
-                </tr>
-                <tr>
-                    <td class="day_cell in_range">
-                        <div class="date">
-                        <span class="num">10</span>
-                        </div>
-                    </td>
-                    <td class="day_cell in_range">
-                        <div class="date">
-                        <span class="num">11</span>
-                        </div>
-                    </td>
-                    <td class="day_cell in_range">
-                        <div class="date">
-                        <span class="num">12</span>
-                        </div>
-                    </td>
-                    <td class="day_cell in_range">
-                        <div class="date">
-                        <span class="num">13</span>
-                        </div>
-                    </td>
-                    <td class="day_cell in_range">
-                        <div class="date">
-                        <span class="num">14</span>
-                        </div>
-                    </td>
-                    <td class="day_cell in_range">
-                        <div class="date">
-                        <span class="num">15</span>
-                        </div>
-                    </td>
-                    <td class="day_cell in_range">
-                        <div class="date">
-                        <span class="num">16</span>
-                        </div>
-                    </td>
-                </tr>
-                <tr>
-                    <td class="day_cell in_range">
-                        <div class="date">
-                        <span class="num">17</span>
-                        </div>
-                    </td>
-                    <td class="day_cell in_range">
-                        <div class="date">
-                        <span class="num">18</span>
-                        </div>
-                    </td>
-                    <td class="day_cell in_range">
-                        <div class="date">
-                        <span class="num">19</span>
-                        </div>
-                    </td>
-                    <td class="day_cell in_range">
-                        <div class="date">
-                        <span class="num">20</span>
-                        </div>
-                    </td>
-                    <td class="day_cell">
-                        <div class="date in_range has_events">
-                            <span class="num">21</span>
-                        </div>
-                        <div class="event tips" data-toggle="popover">
-                            <span class="calendar-color" style="background-color: #e44749;"></span>
-                            <div class="qtip hidden">
-                                <div class="title">
-                                    RESILIENCE - Screening and Discussion
-                                    <span class='event_time'>
-                                        <span class='glyphicon glyphicon-time'></span> 6:00pm - 8:30pm (2h 30m)
-                                    </span>
-                                </div>
-                                <hr />
-                                <div class="title">
-                                    RESILIENCE - Screening and Discussion
-                                    <span class='event_time'>
-                                        <span class='glyphicon glyphicon-time'></span> 6:00pm - 8:30pm (2h 30m)
-                                    </span>
-                                </div>
-                            </div>
-                        </div>
-                    </td>
-                    <td class="day_cell in_range">
-                        <div class="date">
-                        <span class="num">22</span>
-                        </div>
-                    </td>
-                    <td class="day_cell in_range">
-                        <div class="date">
-                        <span class="num">23</span>
-                        </div>
-                    </td>
-                </tr>
-                <tr>
-                    <td class="day_cell in_range">
-                        <div class="date">
-                        <span class="num">24</span>
-                        </div>
-                    </td>
-                    <td class="day_cell in_range">
-                        <div class="date">
-                        <span class="num">25</span>
-                        </div>
-                    </td>
-                    <td class="day_cell in_range">
-                        <div class="date">
-                        <span class="num">26</span>
-                        </div>
-                    </td>
-                    <td class="day_cell in_range">
-                        <div class="date">
-                        <span class="num">27</span>
-                        </div>
-                    </td>
-                    <td class="day_cell in_range">
-                        <div class="date">
-                        <span class="num">28</span>
-                        </div>
-                    </td>
-                    <td class="day_cell in_range">
-                        <div class="date">
-                        <span class="num">29</span>
-                        </div>
-                    </td>
-                    <td class="day_cell in_range">
-                        <div class="date">
-                        <span class="num">30</span>
-                        </div>
-                    </td>
-                </tr>
-            </tbody>
+                <tbody class="days_of_week">
+                    <tr id="days_of_week" class="active weekdays">
+                        <th class="day_of_week" scope="col">Sunday</th>
+                        <th class="day_of_week" scope="col">Monday</th>
+                        <th class="day_of_week" scope="col">Tuesday</th>
+                        <th class="day_of_week" scope="col">Wednesday</th>
+                        <th class="day_of_week" scope="col">Thursday</th>
+                        <th class="day_of_week" scope="col">Friday</th>
+                        <th class="day_of_week" scope="col">Saturday</th>
+                    </tr>
+                    <tr class="the_days">
+                        <td class="day_cell out_of_range">
+                            <div class="date"> <span class="num">28</span></div>
+                        </td>
+                        <td class="day_cell out_of_range">
+                            <div class="date"> <span class="num">29</span></div>
+                        </td>
+                        <td class="day_cell out_of_range">
+                            <div class="date"> <span class="num">30</span></div>
+                        </td>
+                        <td id="1" class="day_cell in_range">
+                            <div class="date"> <span class="num">1</span></div>
+                        </td>
+                        <td id="2" class="day_cell in_range">
+                            <div class="date"> <span class="num">2</span></div>
+                        </td>
+                        <td id="3" class="day_cell in_range">
+                            <div class="date"> <span class="num">3</span></div>
+                        </td>
+                        <td id="4" class="day_cell in_range">
+                            <div class="date"> <span class="num">4</span></div>
+                        </td>
+                    </tr>
+                    <tr class="the_days">
+                        <td id="5" class="day_cell in_range">
+                            <div class="date"> <span class="num">5</span></div>
+                        </td>
+                        <td id="6" class="day_cell in_range">
+                            <div class="date"> <span class="num">6</span></div>
+                        </td>
+                        <td id="7" class="day_cell in_range">
+                            <div class="date"> <span class="num">7</span></div>
+                        </td>
+                        <td id="8" class="day_cell in_range">
+                            <div class="date"> <span class="num">8</span></div>
+                        </td>
+                        <td id="9" class="day_cell in_range">
+                            <div class="date"> <span class="num">9</span></div>
+                        </td>
+                        <td id="10" class="day_cell in_range">
+                            <div class="date"> <span class="num">10</span></div>
+                        </td>
+                        <td id="11" class="day_cell in_range">
+                            <div class="date"> <span class="num">11</span></div>
+                        </td>
+                    </tr>
+                    <tr class="the_days">
+                        <td id="12" class="day_cell in_range">
+                            <div class="date"> <span class="num">12</span></div>
+                        </td>
+                        <td id="13" class="day_cell in_range">
+                            <div class="date"> <span class="num">13</span></div>
+                        </td>
+                        <td id="14" class="day_cell in_range">
+                            <div class="date"> <span class="num">14</span></div>
+                        </td>
+                        <td id="15" class="day_cell in_range">
+                            <div class="date"> <span class="num">15</span></div>
+                        </td>
+                        <td id="16" class="day_cell in_range">
+                            <div class="date"> <span class="num">16</span></div>
+                        </td>
+                        <td id="17" class="day_cell in_range">
+                            <div class="date"> <span class="num">17</span></div>
+                        </td>
+                        <td id="18" class="day_cell in_range">
+                            <div class="date"> <span class="num">18</span></div>
+                        </td>
+                    </tr>
+                    <tr class="the_days">
+                        <td id="19" class="day_cell in_range">
+                            <div class="date"> <span class="num">19</span></div>
+                        </td>
+                        <td id="20" class="day_cell in_range">
+                            <div class="date"> <span class="num">20</span></div>
+                        </td>
+                        <td id="21" class="day_cell in_range">
+                            <div class="date"> <span class="num">21</span></div>
+                        </td>
+                        <td id="22" class="day_cell in_range">
+                            <div class="date"> <span class="num">22</span></div>
+                        </td>
+                        <td id="23" class="day_cell in_range">
+                            <div class="date"> <span class="num">23</span></div>
+                        </td>
+                        <td id="24" class="day_cell in_range">
+                            <div class="date"> <span class="num">24</span></div>
+                        </td>
+                        <td id="25" class="day_cell in_range">
+                            <div class="date"> <span class="num">25</span></div>
+                        </td>
+                    </tr>
+                    <tr class="the_days">
+                        <td id="26" class="day_cell in_range">
+                            <div class="date"> <span class="num">26</span></div>
+                        </td>
+                        <td id="27" class="day_cell in_range">
+                            <div class="date"> <span class="num">27</span></div>
+                        </td>
+                        <td id="28" class="day_cell in_range">
+                            <div class="date"> <span class="num">28</span></div>
+                        </td>
+                        <td id="29" class="day_cell in_range">
+                            <div class="date"> <span class="num">29</span></div>
+                        </td>
+                        <td id="30" class="day_cell in_range">
+                            <div class="date"> <span class="num">30</span></div>
+                        </td>
+                        <td class="day_cell out_of_range">
+                            <div class="date"> <span class="num">1</span></div>
+                        </td>
+                        <td class="day_cell out_of_range">
+                            <div class="date"> <span class="num">2</span></div>
+                        </td>
+                    </tr>
+                </tbody>
             </table>
         </div>
-        <div id="fall_1" class="season">
-            <h2>Fall, Year 1</h2>
+        <div id="Fall_1" class="season">
+            <h1 class="season_title">Fall, Year 1</h1>
             <table id="month_calendar_inner" class="table table-bordered">
-                <tr id="days_of_week" class="active weekdays">
-                    <th class="day_of_week" scope="col">
-                        Sunday
-                    </th>
-                    <th class="day_of_week" scope="col">
-                        Monday
-                    </th>
-                    <th class="day_of_week" scope="col">
-                        Tuesday
-                    </th>
-                    <th class="day_of_week" scope="col">
-                        Wednesday
-                    </th>
-                    <th class="day_of_week" scope="col">
-                        Thursday
-                    </th>
-                    <th class="day_of_week" scope="col">
-                        Friday
-                    </th>
-                    <th class="day_of_week" scope="col">
-                        Saturday
-                    </th>
-                </tr>
-            
-            <tbody>
-                <tr>
-                    <td class="day_cell out_of_range">
-                        <div class="date">
-                        <span class="num">27</span>
-                        </div>
-                    </td>
-                    <td class="day_cell out_of_range">
-                        <div class="date">
-                        <span class="num">28</span>
-                        </div>
-                    </td>
-                    <td class="day_cell out_of_range">
-                        <div class="date">
-                        <span class="num">29</span>
-                        </div>
-                    </td>
-                    <td class="day_cell out_of_range">
-                        <div class="date">
-                        <span class="num">30</span>
-                        </div>
-                    </td>
-                    <td class="day_cell out_of_range">
-                        <div class="date">
-                        <span class="num">31</span>
-                        </div>
-                    </td>
-                    <td class="day_cell in_range">
-                        <div class="date">
-                        <span class="num">1</span>
-                        </div>
-                    </td>
-                    <td class="day_cell in_range">
-                        <div class="date">
-                        <span class="num">2</span>
-                        </div>
-                    </td>
-                </tr>
-                <tr>
-                    <td class="day_cell in_range">
-                        <div class="date">
-                        <span class="num">3</span>
-                        </div>
-                    </td>
-                    <td class="day_cell in_range">
-                        <div class="date">
-                        <span class="num">4</span>
-                        </div>
-                    </td>
-                    <td class="day_cell in_range">
-                        <div class="date">
-                        <span class="num">5</span>
-                        </div>
-                    </td>
-                    <td class="day_cell in_range">
-                        <div class="date">
-                        <span class="num">6</span>
-                        </div>
-                    </td>
-                    <td class="day_cell in_range">
-                        <div class="date">
-                        <span class="num">7</span>
-                        </div>
-                    </td>
-                    <td class="day_cell in_range">
-                        <div class="date">
-                        <span class="num">8</span>
-                        </div>
-                    </td>
-                    <td class="day_cell in_range">
-                        <div class="date">
-                        <span class="num">9</span>
-                        </div>
-                    </td>
-                </tr>
-                <tr>
-                    <td class="day_cell in_range">
-                        <div class="date">
-                        <span class="num">10</span>
-                        </div>
-                    </td>
-                    <td class="day_cell in_range">
-                        <div class="date">
-                        <span class="num">11</span>
-                        </div>
-                    </td>
-                    <td class="day_cell in_range">
-                        <div class="date">
-                        <span class="num">12</span>
-                        </div>
-                    </td>
-                    <td class="day_cell in_range">
-                        <div class="date">
-                        <span class="num">13</span>
-                        </div>
-                    </td>
-                    <td class="day_cell in_range">
-                        <div class="date">
-                        <span class="num">14</span>
-                        </div>
-                    </td>
-                    <td class="day_cell in_range">
-                        <div class="date">
-                        <span class="num">15</span>
-                        </div>
-                    </td>
-                    <td class="day_cell in_range">
-                        <div class="date">
-                        <span class="num">16</span>
-                        </div>
-                    </td>
-                </tr>
-                <tr>
-                    <td class="day_cell in_range">
-                        <div class="date">
-                        <span class="num">17</span>
-                        </div>
-                    </td>
-                    <td class="day_cell in_range">
-                        <div class="date">
-                        <span class="num">18</span>
-                        </div>
-                    </td>
-                    <td class="day_cell in_range">
-                        <div class="date">
-                        <span class="num">19</span>
-                        </div>
-                    </td>
-                    <td class="day_cell in_range">
-                        <div class="date">
-                        <span class="num">20</span>
-                        </div>
-                    </td>
-                    <td class="day_cell">
-                        <div class="date in_range has_events">
-                            <span class="num">21</span>
-                        </div>
-                        <div class="event tips" data-toggle="popover">
-                            <span class="calendar-color" style="background-color: #e44749;"></span>
-                            <div class="qtip hidden">
-                                <div class="title">
-                                    RESILIENCE - Screening and Discussion
-                                    <span class='event_time'>
-                                        <span class='glyphicon glyphicon-time'></span> 6:00pm - 8:30pm (2h 30m)
-                                    </span>
-                                </div>
-                                <hr />
-                                <div class="title">
-                                    RESILIENCE - Screening and Discussion
-                                    <span class='event_time'>
-                                        <span class='glyphicon glyphicon-time'></span> 6:00pm - 8:30pm (2h 30m)
-                                    </span>
-                                </div>
-                            </div>
-                        </div>
-                    </td>
-                    <td class="day_cell in_range">
-                        <div class="date">
-                        <span class="num">22</span>
-                        </div>
-                    </td>
-                    <td class="day_cell in_range">
-                        <div class="date">
-                        <span class="num">23</span>
-                        </div>
-                    </td>
-                </tr>
-                <tr>
-                    <td class="day_cell in_range">
-                        <div class="date">
-                        <span class="num">24</span>
-                        </div>
-                    </td>
-                    <td class="day_cell in_range">
-                        <div class="date">
-                        <span class="num">25</span>
-                        </div>
-                    </td>
-                    <td class="day_cell in_range">
-                        <div class="date">
-                        <span class="num">26</span>
-                        </div>
-                    </td>
-                    <td class="day_cell in_range">
-                        <div class="date">
-                        <span class="num">27</span>
-                        </div>
-                    </td>
-                    <td class="day_cell in_range">
-                        <div class="date">
-                        <span class="num">28</span>
-                        </div>
-                    </td>
-                    <td class="day_cell in_range">
-                        <div class="date">
-                        <span class="num">29</span>
-                        </div>
-                    </td>
-                    <td class="day_cell in_range">
-                        <div class="date">
-                        <span class="num">30</span>
-                        </div>
-                    </td>
-                </tr>
-            </tbody>
+                <tbody class="days_of_week">
+                    <tr id="days_of_week" class="active weekdays">
+                        <th class="day_of_week" scope="col">Sunday</th>
+                        <th class="day_of_week" scope="col">Monday</th>
+                        <th class="day_of_week" scope="col">Tuesday</th>
+                        <th class="day_of_week" scope="col">Wednesday</th>
+                        <th class="day_of_week" scope="col">Thursday</th>
+                        <th class="day_of_week" scope="col">Friday</th>
+                        <th class="day_of_week" scope="col">Saturday</th>
+                    </tr>
+                    <tr class="the_days">
+                        <td class="day_cell out_of_range">
+                            <div class="date"> <span class="num">26</span></div>
+                        </td>
+                        <td class="day_cell out_of_range">
+                            <div class="date"> <span class="num">27</span></div>
+                        </td>
+                        <td class="day_cell out_of_range">
+                            <div class="date"> <span class="num">28</span></div>
+                        </td>
+                        <td class="day_cell out_of_range">
+                            <div class="date"> <span class="num">29</span></div>
+                        </td>
+                        <td class="day_cell out_of_range">
+                            <div class="date"> <span class="num">30</span></div>
+                        </td>
+                        <td id="1" class="day_cell in_range">
+                            <div class="date"> <span class="num">1</span></div>
+                        </td>
+                        <td id="2" class="day_cell in_range">
+                            <div class="date"> <span class="num">2</span></div>
+                        </td>
+                    </tr>
+                    <tr class="the_days">
+                        <td id="3" class="day_cell in_range">
+                            <div class="date"> <span class="num">3</span></div>
+                        </td>
+                        <td id="4" class="day_cell in_range">
+                            <div class="date"> <span class="num">4</span></div>
+                        </td>
+                        <td id="5" class="day_cell in_range">
+                            <div class="date"> <span class="num">5</span></div>
+                        </td>
+                        <td id="6" class="day_cell in_range">
+                            <div class="date"> <span class="num">6</span></div>
+                        </td>
+                        <td id="7" class="day_cell in_range">
+                            <div class="date"> <span class="num">7</span></div>
+                        </td>
+                        <td id="8" class="day_cell in_range">
+                            <div class="date"> <span class="num">8</span></div>
+                        </td>
+                        <td id="9" class="day_cell in_range">
+                            <div class="date"> <span class="num">9</span></div>
+                        </td>
+                    </tr>
+                    <tr class="the_days">
+                        <td id="10" class="day_cell in_range">
+                            <div class="date"> <span class="num">10</span></div>
+                        </td>
+                        <td id="11" class="day_cell in_range">
+                            <div class="date"> <span class="num">11</span></div>
+                        </td>
+                        <td id="12" class="day_cell in_range">
+                            <div class="date"> <span class="num">12</span></div>
+                        </td>
+                        <td id="13" class="day_cell in_range">
+                            <div class="date"> <span class="num">13</span></div>
+                        </td>
+                        <td id="14" class="day_cell in_range">
+                            <div class="date"> <span class="num">14</span></div>
+                        </td>
+                        <td id="15" class="day_cell in_range">
+                            <div class="date"> <span class="num">15</span></div>
+                        </td>
+                        <td id="16" class="day_cell in_range">
+                            <div class="date"> <span class="num">16</span></div>
+                        </td>
+                    </tr>
+                    <tr class="the_days">
+                        <td id="17" class="day_cell in_range">
+                            <div class="date"> <span class="num">17</span></div>
+                        </td>
+                        <td id="18" class="day_cell in_range">
+                            <div class="date"> <span class="num">18</span></div>
+                        </td>
+                        <td id="19" class="day_cell in_range">
+                            <div class="date"> <span class="num">19</span></div>
+                        </td>
+                        <td id="20" class="day_cell in_range">
+                            <div class="date"> <span class="num">20</span></div>
+                        </td>
+                        <td id="21" class="day_cell in_range">
+                            <div class="date"> <span class="num">21</span></div>
+                        </td>
+                        <td id="22" class="day_cell in_range">
+                            <div class="date"> <span class="num">22</span></div>
+                        </td>
+                        <td id="23" class="day_cell in_range">
+                            <div class="date"> <span class="num">23</span></div>
+                        </td>
+                    </tr>
+                    <tr class="the_days">
+                        <td id="24" class="day_cell in_range">
+                            <div class="date"> <span class="num">24</span></div>
+                        </td>
+                        <td id="25" class="day_cell in_range">
+                            <div class="date"> <span class="num">25</span></div>
+                        </td>
+                        <td id="26" class="day_cell in_range">
+                            <div class="date"> <span class="num">26</span></div>
+                        </td>
+                        <td id="27" class="day_cell in_range">
+                            <div class="date"> <span class="num">27</span></div>
+                        </td>
+                        <td id="28" class="day_cell in_range">
+                            <div class="date"> <span class="num">28</span></div>
+                        </td>
+                        <td id="29" class="day_cell in_range">
+                            <div class="date"> <span class="num">29</span></div>
+                        </td>
+                        <td id="30" class="day_cell in_range">
+                            <div class="date"> <span class="num">30</span></div>
+                        </td>
+                    </tr>
+                </tbody>
             </table>
         </div>
-        <div id="winter_1" class="season">
-            <h2>Winter, Year 1</h2>
+        <div id="Winter_1" class="season">
+            <h1 class="season_title">Winter, Year 1</h1>
             <table id="month_calendar_inner" class="table table-bordered">
-                <tr id="days_of_week" class="active weekdays">
-                    <th class="day_of_week" scope="col">
-                        Sunday
-                    </th>
-                    <th class="day_of_week" scope="col">
-                        Monday
-                    </th>
-                    <th class="day_of_week" scope="col">
-                        Tuesday
-                    </th>
-                    <th class="day_of_week" scope="col">
-                        Wednesday
-                    </th>
-                    <th class="day_of_week" scope="col">
-                        Thursday
-                    </th>
-                    <th class="day_of_week" scope="col">
-                        Friday
-                    </th>
-                    <th class="day_of_week" scope="col">
-                        Saturday
-                    </th>
-                </tr>
-            
-            <tbody>
-                <tr>
-                    <td class="day_cell out_of_range">
-                        <div class="date">
-                        <span class="num">27</span>
-                        </div>
-                    </td>
-                    <td class="day_cell out_of_range">
-                        <div class="date">
-                        <span class="num">28</span>
-                        </div>
-                    </td>
-                    <td class="day_cell out_of_range">
-                        <div class="date">
-                        <span class="num">29</span>
-                        </div>
-                    </td>
-                    <td class="day_cell out_of_range">
-                        <div class="date">
-                        <span class="num">30</span>
-                        </div>
-                    </td>
-                    <td class="day_cell out_of_range">
-                        <div class="date">
-                        <span class="num">31</span>
-                        </div>
-                    </td>
-                    <td class="day_cell in_range">
-                        <div class="date">
-                        <span class="num">1</span>
-                        </div>
-                    </td>
-                    <td class="day_cell in_range">
-                        <div class="date">
-                        <span class="num">2</span>
-                        </div>
-                    </td>
-                </tr>
-                <tr>
-                    <td class="day_cell in_range">
-                        <div class="date">
-                        <span class="num">3</span>
-                        </div>
-                    </td>
-                    <td class="day_cell in_range">
-                        <div class="date">
-                        <span class="num">4</span>
-                        </div>
-                    </td>
-                    <td class="day_cell in_range">
-                        <div class="date">
-                        <span class="num">5</span>
-                        </div>
-                    </td>
-                    <td class="day_cell in_range">
-                        <div class="date">
-                        <span class="num">6</span>
-                        </div>
-                    </td>
-                    <td class="day_cell in_range">
-                        <div class="date">
-                        <span class="num">7</span>
-                        </div>
-                    </td>
-                    <td class="day_cell in_range">
-                        <div class="date">
-                        <span class="num">8</span>
-                        </div>
-                    </td>
-                    <td class="day_cell in_range">
-                        <div class="date">
-                        <span class="num">9</span>
-                        </div>
-                    </td>
-                </tr>
-                <tr>
-                    <td class="day_cell in_range">
-                        <div class="date">
-                        <span class="num">10</span>
-                        </div>
-                    </td>
-                    <td class="day_cell in_range">
-                        <div class="date">
-                        <span class="num">11</span>
-                        </div>
-                    </td>
-                    <td class="day_cell in_range">
-                        <div class="date">
-                        <span class="num">12</span>
-                        </div>
-                    </td>
-                    <td class="day_cell in_range">
-                        <div class="date">
-                        <span class="num">13</span>
-                        </div>
-                    </td>
-                    <td class="day_cell in_range">
-                        <div class="date">
-                        <span class="num">14</span>
-                        </div>
-                    </td>
-                    <td class="day_cell in_range">
-                        <div class="date">
-                        <span class="num">15</span>
-                        </div>
-                    </td>
-                    <td class="day_cell in_range">
-                        <div class="date">
-                        <span class="num">16</span>
-                        </div>
-                    </td>
-                </tr>
-                <tr>
-                    <td class="day_cell in_range">
-                        <div class="date">
-                        <span class="num">17</span>
-                        </div>
-                    </td>
-                    <td class="day_cell in_range">
-                        <div class="date">
-                        <span class="num">18</span>
-                        </div>
-                    </td>
-                    <td class="day_cell in_range">
-                        <div class="date">
-                        <span class="num">19</span>
-                        </div>
-                    </td>
-                    <td class="day_cell in_range">
-                        <div class="date">
-                        <span class="num">20</span>
-                        </div>
-                    </td>
-                    <td class="day_cell">
-                        <div class="date in_range has_events">
-                            <span class="num">21</span>
-                        </div>
-                        <div class="event tips" data-toggle="popover">
-                            <span class="calendar-color" style="background-color: #e44749;"></span>
-                            <div class="qtip hidden">
-                                <div class="title">
-                                    RESILIENCE - Screening and Discussion
-                                    <span class='event_time'>
-                                        <span class='glyphicon glyphicon-time'></span> 6:00pm - 8:30pm (2h 30m)
-                                    </span>
-                                </div>
-                                <hr />
-                                <div class="title">
-                                    RESILIENCE - Screening and Discussion
-                                    <span class='event_time'>
-                                        <span class='glyphicon glyphicon-time'></span> 6:00pm - 8:30pm (2h 30m)
-                                    </span>
-                                </div>
-                            </div>
-                        </div>
-                    </td>
-                    <td class="day_cell in_range">
-                        <div class="date">
-                        <span class="num">22</span>
-                        </div>
-                    </td>
-                    <td class="day_cell in_range">
-                        <div class="date">
-                        <span class="num">23</span>
-                        </div>
-                    </td>
-                </tr>
-                <tr>
-                    <td class="day_cell in_range">
-                        <div class="date">
-                        <span class="num">24</span>
-                        </div>
-                    </td>
-                    <td class="day_cell in_range">
-                        <div class="date">
-                        <span class="num">25</span>
-                        </div>
-                    </td>
-                    <td class="day_cell in_range">
-                        <div class="date">
-                        <span class="num">26</span>
-                        </div>
-                    </td>
-                    <td class="day_cell in_range">
-                        <div class="date">
-                        <span class="num">27</span>
-                        </div>
-                    </td>
-                    <td class="day_cell in_range">
-                        <div class="date">
-                        <span class="num">28</span>
-                        </div>
-                    </td>
-                    <td class="day_cell in_range">
-                        <div class="date">
-                        <span class="num">29</span>
-                        </div>
-                    </td>
-                    <td class="day_cell in_range">
-                        <div class="date">
-                        <span class="num">30</span>
-                        </div>
-                    </td>
-                </tr>
-            </tbody>
+                <tbody class="days_of_week">
+                    <tr id="days_of_week" class="active weekdays">
+                        <th class="day_of_week" scope="col">Sunday</th>
+                        <th class="day_of_week" scope="col">Monday</th>
+                        <th class="day_of_week" scope="col">Tuesday</th>
+                        <th class="day_of_week" scope="col">Wednesday</th>
+                        <th class="day_of_week" scope="col">Thursday</th>
+                        <th class="day_of_week" scope="col">Friday</th>
+                        <th class="day_of_week" scope="col">Saturday</th>
+                    </tr>
+                    <tr class="the_days">
+                        <td id="1" class="day_cell in_range">
+                            <div class="date"> <span class="num">1</span></div>
+                        </td>
+                        <td id="2" class="day_cell in_range">
+                            <div class="date"> <span class="num">2</span></div>
+                        </td>
+                        <td id="3" class="day_cell in_range">
+                            <div class="date"> <span class="num">3</span></div>
+                        </td>
+                        <td id="4" class="day_cell in_range">
+                            <div class="date"> <span class="num">4</span></div>
+                        </td>
+                        <td id="5" class="day_cell in_range">
+                            <div class="date"> <span class="num">5</span></div>
+                        </td>
+                        <td id="6" class="day_cell in_range">
+                            <div class="date"> <span class="num">6</span></div>
+                        </td>
+                        <td id="7" class="day_cell in_range">
+                            <div class="date"> <span class="num">7</span></div>
+                        </td>
+                    </tr>
+                    <tr class="the_days">
+                        <td id="8" class="day_cell in_range">
+                            <div class="date"> <span class="num">8</span></div>
+                        </td>
+                        <td id="9" class="day_cell in_range">
+                            <div class="date"> <span class="num">9</span></div>
+                        </td>
+                        <td id="10" class="day_cell in_range">
+                            <div class="date"> <span class="num">10</span></div>
+                        </td>
+                        <td id="11" class="day_cell in_range">
+                            <div class="date"> <span class="num">11</span></div>
+                        </td>
+                        <td id="12" class="day_cell in_range">
+                            <div class="date"> <span class="num">12</span></div>
+                        </td>
+                        <td id="13" class="day_cell in_range">
+                            <div class="date"> <span class="num">13</span></div>
+                        </td>
+                        <td id="14" class="day_cell in_range">
+                            <div class="date"> <span class="num">14</span></div>
+                        </td>
+                    </tr>
+                    <tr class="the_days">
+                        <td id="15" class="day_cell in_range">
+                            <div class="date"> <span class="num">15</span></div>
+                        </td>
+                        <td id="16" class="day_cell in_range">
+                            <div class="date"> <span class="num">16</span></div>
+                        </td>
+                        <td id="17" class="day_cell in_range">
+                            <div class="date"> <span class="num">17</span></div>
+                        </td>
+                        <td id="18" class="day_cell in_range">
+                            <div class="date"> <span class="num">18</span></div>
+                        </td>
+                        <td id="19" class="day_cell in_range">
+                            <div class="date"> <span class="num">19</span></div>
+                        </td>
+                        <td id="20" class="day_cell in_range">
+                            <div class="date"> <span class="num">20</span></div>
+                        </td>
+                        <td id="21" class="day_cell in_range">
+                            <div class="date"> <span class="num">21</span></div>
+                        </td>
+                    </tr>
+                    <tr class="the_days">
+                        <td id="22" class="day_cell in_range">
+                            <div class="date"> <span class="num">22</span></div>
+                        </td>
+                        <td id="23" class="day_cell in_range">
+                            <div class="date"> <span class="num">23</span></div>
+                        </td>
+                        <td id="24" class="day_cell in_range">
+                            <div class="date"> <span class="num">24</span></div>
+                        </td>
+                        <td id="25" class="day_cell in_range">
+                            <div class="date"> <span class="num">25</span></div>
+                        </td>
+                        <td id="26" class="day_cell in_range">
+                            <div class="date"> <span class="num">26</span></div>
+                        </td>
+                        <td id="27" class="day_cell in_range">
+                            <div class="date"> <span class="num">27</span></div>
+                        </td>
+                        <td id="28" class="day_cell in_range">
+                            <div class="date"> <span class="num">28</span></div>
+                        </td>
+                    </tr>
+                    <tr class="the_days">
+                        <td id="29" class="day_cell in_range">
+                            <div class="date"> <span class="num">29</span></div>
+                        </td>
+                        <td id="30" class="day_cell in_range">
+                            <div class="date"> <span class="num">30</span></div>
+                        </td>
+                        <td class="day_cell out_of_range">
+                            <div class="date"> <span class="num">1</span></div>
+                        </td>
+                        <td class="day_cell out_of_range">
+                            <div class="date"> <span class="num">2</span></div>
+                        </td>
+                        <td class="day_cell out_of_range">
+                            <div class="date"> <span class="num">3</span></div>
+                        </td>
+                        <td class="day_cell out_of_range">
+                            <div class="date"> <span class="num">4</span></div>
+                        </td>
+                        <td class="day_cell out_of_range">
+                            <div class="date"> <span class="num">5</span></div>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+        <div id="Spring_2" class="season">
+            <h1 class="season_title">Spring, Year 2</h1>
+            <table id="month_calendar_inner" class="table table-bordered">
+                <tbody class="days_of_week">
+                    <tr id="days_of_week" class="active weekdays">
+                        <th class="day_of_week" scope="col">Sunday</th>
+                        <th class="day_of_week" scope="col">Monday</th>
+                        <th class="day_of_week" scope="col">Tuesday</th>
+                        <th class="day_of_week" scope="col">Wednesday</th>
+                        <th class="day_of_week" scope="col">Thursday</th>
+                        <th class="day_of_week" scope="col">Friday</th>
+                        <th class="day_of_week" scope="col">Saturday</th>
+                    </tr>
+                    <tr class="the_days">
+                        <td class="day_cell out_of_range">
+                            <div class="date"> <span class="num">29</span></div>
+                        </td>
+                        <td class="day_cell out_of_range">
+                            <div class="date"> <span class="num">30</span></div>
+                        </td>
+                        <td id="1" class="day_cell in_range">
+                            <div class="date"> <span class="num">1</span></div>
+                        </td>
+                        <td id="2" class="day_cell in_range">
+                            <div class="date"> <span class="num">2</span></div>
+                        </td>
+                        <td id="3" class="day_cell in_range">
+                            <div class="date"> <span class="num">3</span></div>
+                        </td>
+                        <td id="4" class="day_cell in_range">
+                            <div class="date"> <span class="num">4</span></div>
+                        </td>
+                        <td id="5" class="day_cell in_range">
+                            <div class="date"> <span class="num">5</span></div>
+                        </td>
+                    </tr>
+                    <tr class="the_days">
+                        <td id="6" class="day_cell in_range">
+                            <div class="date"> <span class="num">6</span></div>
+                        </td>
+                        <td id="7" class="day_cell in_range">
+                            <div class="date"> <span class="num">7</span></div>
+                        </td>
+                        <td id="8" class="day_cell in_range">
+                            <div class="date"> <span class="num">8</span></div>
+                        </td>
+                        <td id="9" class="day_cell in_range">
+                            <div class="date"> <span class="num">9</span></div>
+                        </td>
+                        <td id="10" class="day_cell in_range">
+                            <div class="date"> <span class="num">10</span></div>
+                        </td>
+                        <td id="11" class="day_cell in_range">
+                            <div class="date"> <span class="num">11</span></div>
+                        </td>
+                        <td id="12" class="day_cell in_range">
+                            <div class="date"> <span class="num">12</span></div>
+                        </td>
+                    </tr>
+                    <tr class="the_days">
+                        <td id="13" class="day_cell in_range">
+                            <div class="date"> <span class="num">13</span></div>
+                        </td>
+                        <td id="14" class="day_cell in_range">
+                            <div class="date"> <span class="num">14</span></div>
+                        </td>
+                        <td id="15" class="day_cell in_range">
+                            <div class="date"> <span class="num">15</span></div>
+                        </td>
+                        <td id="16" class="day_cell in_range">
+                            <div class="date"> <span class="num">16</span></div>
+                        </td>
+                        <td id="17" class="day_cell in_range">
+                            <div class="date"> <span class="num">17</span></div>
+                        </td>
+                        <td id="18" class="day_cell in_range">
+                            <div class="date"> <span class="num">18</span></div>
+                        </td>
+                        <td id="19" class="day_cell in_range">
+                            <div class="date"> <span class="num">19</span></div>
+                        </td>
+                    </tr>
+                    <tr class="the_days">
+                        <td id="20" class="day_cell in_range">
+                            <div class="date"> <span class="num">20</span></div>
+                        </td>
+                        <td id="21" class="day_cell in_range">
+                            <div class="date"> <span class="num">21</span></div>
+                        </td>
+                        <td id="22" class="day_cell in_range">
+                            <div class="date"> <span class="num">22</span></div>
+                        </td>
+                        <td id="23" class="day_cell in_range">
+                            <div class="date"> <span class="num">23</span></div>
+                        </td>
+                        <td id="24" class="day_cell in_range">
+                            <div class="date"> <span class="num">24</span></div>
+                        </td>
+                        <td id="25" class="day_cell in_range">
+                            <div class="date"> <span class="num">25</span></div>
+                        </td>
+                        <td id="26" class="day_cell in_range">
+                            <div class="date"> <span class="num">26</span></div>
+                        </td>
+                    </tr>
+                    <tr class="the_days">
+                        <td id="27" class="day_cell in_range">
+                            <div class="date"> <span class="num">27</span></div>
+                        </td>
+                        <td id="28" class="day_cell in_range">
+                            <div class="date"> <span class="num">28</span></div>
+                        </td>
+                        <td id="29" class="day_cell in_range">
+                            <div class="date"> <span class="num">29</span></div>
+                        </td>
+                        <td id="30" class="day_cell in_range">
+                            <div class="date"> <span class="num">30</span></div>
+                        </td>
+                        <td class="day_cell out_of_range">
+                            <div class="date"> <span class="num">1</span></div>
+                        </td>
+                        <td class="day_cell out_of_range">
+                            <div class="date"> <span class="num">2</span></div>
+                        </td>
+                        <td class="day_cell out_of_range">
+                            <div class="date"> <span class="num">3</span></div>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+        <div id="Summer_2" class="season">
+            <h1 class="season_title">Summer, Year 2</h1>
+            <table id="month_calendar_inner" class="table table-bordered">
+                <tbody class="days_of_week">
+                    <tr id="days_of_week" class="active weekdays">
+                        <th class="day_of_week" scope="col">Sunday</th>
+                        <th class="day_of_week" scope="col">Monday</th>
+                        <th class="day_of_week" scope="col">Tuesday</th>
+                        <th class="day_of_week" scope="col">Wednesday</th>
+                        <th class="day_of_week" scope="col">Thursday</th>
+                        <th class="day_of_week" scope="col">Friday</th>
+                        <th class="day_of_week" scope="col">Saturday</th>
+                    </tr>
+                    <tr class="the_days">
+                        <td class="day_cell out_of_range">
+                            <div class="date"> <span class="num">27</span></div>
+                        </td>
+                        <td class="day_cell out_of_range">
+                            <div class="date"> <span class="num">28</span></div>
+                        </td>
+                        <td class="day_cell out_of_range">
+                            <div class="date"> <span class="num">29</span></div>
+                        </td>
+                        <td class="day_cell out_of_range">
+                            <div class="date"> <span class="num">30</span></div>
+                        </td>
+                        <td id="1" class="day_cell in_range">
+                            <div class="date"> <span class="num">1</span></div>
+                        </td>
+                        <td id="2" class="day_cell in_range">
+                            <div class="date"> <span class="num">2</span></div>
+                        </td>
+                        <td id="3" class="day_cell in_range">
+                            <div class="date"> <span class="num">3</span></div>
+                        </td>
+                    </tr>
+                    <tr class="the_days">
+                        <td id="4" class="day_cell in_range">
+                            <div class="date"> <span class="num">4</span></div>
+                        </td>
+                        <td id="5" class="day_cell in_range">
+                            <div class="date"> <span class="num">5</span></div>
+                        </td>
+                        <td id="6" class="day_cell in_range">
+                            <div class="date"> <span class="num">6</span></div>
+                        </td>
+                        <td id="7" class="day_cell in_range">
+                            <div class="date"> <span class="num">7</span></div>
+                        </td>
+                        <td id="8" class="day_cell in_range">
+                            <div class="date"> <span class="num">8</span></div>
+                        </td>
+                        <td id="9" class="day_cell in_range">
+                            <div class="date"> <span class="num">9</span></div>
+                        </td>
+                        <td id="10" class="day_cell in_range">
+                            <div class="date"> <span class="num">10</span></div>
+                        </td>
+                    </tr>
+                    <tr class="the_days">
+                        <td id="11" class="day_cell in_range">
+                            <div class="date"> <span class="num">11</span></div>
+                        </td>
+                        <td id="12" class="day_cell in_range">
+                            <div class="date"> <span class="num">12</span></div>
+                        </td>
+                        <td id="13" class="day_cell in_range">
+                            <div class="date"> <span class="num">13</span></div>
+                        </td>
+                        <td id="14" class="day_cell in_range">
+                            <div class="date"> <span class="num">14</span></div>
+                        </td>
+                        <td id="15" class="day_cell in_range">
+                            <div class="date"> <span class="num">15</span></div>
+                        </td>
+                        <td id="16" class="day_cell in_range">
+                            <div class="date"> <span class="num">16</span></div>
+                        </td>
+                        <td id="17" class="day_cell in_range">
+                            <div class="date"> <span class="num">17</span></div>
+                        </td>
+                    </tr>
+                    <tr class="the_days">
+                        <td id="18" class="day_cell in_range">
+                            <div class="date"> <span class="num">18</span></div>
+                        </td>
+                        <td id="19" class="day_cell in_range">
+                            <div class="date"> <span class="num">19</span></div>
+                        </td>
+                        <td id="20" class="day_cell in_range">
+                            <div class="date"> <span class="num">20</span></div>
+                        </td>
+                        <td id="21" class="day_cell in_range">
+                            <div class="date"> <span class="num">21</span></div>
+                        </td>
+                        <td id="22" class="day_cell in_range">
+                            <div class="date"> <span class="num">22</span></div>
+                        </td>
+                        <td id="23" class="day_cell in_range">
+                            <div class="date"> <span class="num">23</span></div>
+                        </td>
+                        <td id="24" class="day_cell in_range">
+                            <div class="date"> <span class="num">24</span></div>
+                        </td>
+                    </tr>
+                    <tr class="the_days">
+                        <td id="25" class="day_cell in_range">
+                            <div class="date"> <span class="num">25</span></div>
+                        </td>
+                        <td id="26" class="day_cell in_range">
+                            <div class="date"> <span class="num">26</span></div>
+                        </td>
+                        <td id="27" class="day_cell in_range">
+                            <div class="date"> <span class="num">27</span></div>
+                        </td>
+                        <td id="28" class="day_cell in_range">
+                            <div class="date"> <span class="num">28</span></div>
+                        </td>
+                        <td id="29" class="day_cell in_range">
+                            <div class="date"> <span class="num">29</span></div>
+                        </td>
+                        <td id="30" class="day_cell in_range">
+                            <div class="date"> <span class="num">30</span></div>
+                        </td>
+                        <td class="day_cell out_of_range">
+                            <div class="date"> <span class="num">1</span></div>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+        <div id="Fall_2" class="season">
+            <h1 class="season_title">Fall, Year 2</h1>
+            <table id="month_calendar_inner" class="table table-bordered">
+                <tbody class="days_of_week">
+                    <tr id="days_of_week" class="active weekdays">
+                        <th class="day_of_week" scope="col">Sunday</th>
+                        <th class="day_of_week" scope="col">Monday</th>
+                        <th class="day_of_week" scope="col">Tuesday</th>
+                        <th class="day_of_week" scope="col">Wednesday</th>
+                        <th class="day_of_week" scope="col">Thursday</th>
+                        <th class="day_of_week" scope="col">Friday</th>
+                        <th class="day_of_week" scope="col">Saturday</th>
+                    </tr>
+                    <tr class="the_days">
+                        <td class="day_cell out_of_range">
+                            <div class="date"> <span class="num">25</span></div>
+                        </td>
+                        <td class="day_cell out_of_range">
+                            <div class="date"> <span class="num">26</span></div>
+                        </td>
+                        <td class="day_cell out_of_range">
+                            <div class="date"> <span class="num">27</span></div>
+                        </td>
+                        <td class="day_cell out_of_range">
+                            <div class="date"> <span class="num">28</span></div>
+                        </td>
+                        <td class="day_cell out_of_range">
+                            <div class="date"> <span class="num">29</span></div>
+                        </td>
+                        <td class="day_cell out_of_range">
+                            <div class="date"> <span class="num">30</span></div>
+                        </td>
+                        <td id="1" class="day_cell in_range">
+                            <div class="date"> <span class="num">1</span></div>
+                        </td>
+                    </tr>
+                    <tr class="the_days">
+                        <td id="2" class="day_cell in_range">
+                            <div class="date"> <span class="num">2</span></div>
+                        </td>
+                        <td id="3" class="day_cell in_range">
+                            <div class="date"> <span class="num">3</span></div>
+                        </td>
+                        <td id="4" class="day_cell in_range">
+                            <div class="date"> <span class="num">4</span></div>
+                        </td>
+                        <td id="5" class="day_cell in_range">
+                            <div class="date"> <span class="num">5</span></div>
+                        </td>
+                        <td id="6" class="day_cell in_range">
+                            <div class="date"> <span class="num">6</span></div>
+                        </td>
+                        <td id="7" class="day_cell in_range">
+                            <div class="date"> <span class="num">7</span></div>
+                        </td>
+                        <td id="8" class="day_cell in_range">
+                            <div class="date"> <span class="num">8</span></div>
+                        </td>
+                    </tr>
+                    <tr class="the_days">
+                        <td id="9" class="day_cell in_range">
+                            <div class="date"> <span class="num">9</span></div>
+                        </td>
+                        <td id="10" class="day_cell in_range">
+                            <div class="date"> <span class="num">10</span></div>
+                        </td>
+                        <td id="11" class="day_cell in_range">
+                            <div class="date"> <span class="num">11</span></div>
+                        </td>
+                        <td id="12" class="day_cell in_range">
+                            <div class="date"> <span class="num">12</span></div>
+                        </td>
+                        <td id="13" class="day_cell in_range">
+                            <div class="date"> <span class="num">13</span></div>
+                        </td>
+                        <td id="14" class="day_cell in_range">
+                            <div class="date"> <span class="num">14</span></div>
+                        </td>
+                        <td id="15" class="day_cell in_range">
+                            <div class="date"> <span class="num">15</span></div>
+                        </td>
+                    </tr>
+                    <tr class="the_days">
+                        <td id="16" class="day_cell in_range">
+                            <div class="date"> <span class="num">16</span></div>
+                        </td>
+                        <td id="17" class="day_cell in_range">
+                            <div class="date"> <span class="num">17</span></div>
+                        </td>
+                        <td id="18" class="day_cell in_range">
+                            <div class="date"> <span class="num">18</span></div>
+                        </td>
+                        <td id="19" class="day_cell in_range">
+                            <div class="date"> <span class="num">19</span></div>
+                        </td>
+                        <td id="20" class="day_cell in_range">
+                            <div class="date"> <span class="num">20</span></div>
+                        </td>
+                        <td id="21" class="day_cell in_range">
+                            <div class="date"> <span class="num">21</span></div>
+                        </td>
+                        <td id="22" class="day_cell in_range">
+                            <div class="date"> <span class="num">22</span></div>
+                        </td>
+                    </tr>
+                    <tr class="the_days">
+                        <td id="23" class="day_cell in_range">
+                            <div class="date"> <span class="num">23</span></div>
+                        </td>
+                        <td id="24" class="day_cell in_range">
+                            <div class="date"> <span class="num">24</span></div>
+                        </td>
+                        <td id="25" class="day_cell in_range">
+                            <div class="date"> <span class="num">25</span></div>
+                        </td>
+                        <td id="26" class="day_cell in_range">
+                            <div class="date"> <span class="num">26</span></div>
+                        </td>
+                        <td id="27" class="day_cell in_range">
+                            <div class="date"> <span class="num">27</span></div>
+                        </td>
+                        <td id="28" class="day_cell in_range">
+                            <div class="date"> <span class="num">28</span></div>
+                        </td>
+                        <td id="29" class="day_cell in_range">
+                            <div class="date"> <span class="num">29</span></div>
+                        </td>
+                    </tr>
+                    <tr class="the_days">
+                        <td id="30" class="day_cell in_range">
+                            <div class="date"> <span class="num">30</span></div>
+                        </td>
+                        <td class="day_cell out_of_range">
+                            <div class="date"> <span class="num">1</span></div>
+                        </td>
+                        <td class="day_cell out_of_range">
+                            <div class="date"> <span class="num">2</span></div>
+                        </td>
+                        <td class="day_cell out_of_range">
+                            <div class="date"> <span class="num">3</span></div>
+                        </td>
+                        <td class="day_cell out_of_range">
+                            <div class="date"> <span class="num">4</span></div>
+                        </td>
+                        <td class="day_cell out_of_range">
+                            <div class="date"> <span class="num">5</span></div>
+                        </td>
+                        <td class="day_cell out_of_range">
+                            <div class="date"> <span class="num">6</span></div>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+        <div id="Winter_2" class="season">
+            <h1 class="season_title">Winter, Year 2</h1>
+            <table id="month_calendar_inner" class="table table-bordered">
+                <tbody class="days_of_week">
+                    <tr id="days_of_week" class="active weekdays">
+                        <th class="day_of_week" scope="col">Sunday</th>
+                        <th class="day_of_week" scope="col">Monday</th>
+                        <th class="day_of_week" scope="col">Tuesday</th>
+                        <th class="day_of_week" scope="col">Wednesday</th>
+                        <th class="day_of_week" scope="col">Thursday</th>
+                        <th class="day_of_week" scope="col">Friday</th>
+                        <th class="day_of_week" scope="col">Saturday</th>
+                    </tr>
+                    <tr class="the_days">
+                        <td class="day_cell out_of_range">
+                            <div class="date"> <span class="num">30</span></div>
+                        </td>
+                        <td id="1" class="day_cell in_range">
+                            <div class="date"> <span class="num">1</span></div>
+                        </td>
+                        <td id="2" class="day_cell in_range">
+                            <div class="date"> <span class="num">2</span></div>
+                        </td>
+                        <td id="3" class="day_cell in_range">
+                            <div class="date"> <span class="num">3</span></div>
+                        </td>
+                        <td id="4" class="day_cell in_range">
+                            <div class="date"> <span class="num">4</span></div>
+                        </td>
+                        <td id="5" class="day_cell in_range">
+                            <div class="date"> <span class="num">5</span></div>
+                        </td>
+                        <td id="6" class="day_cell in_range">
+                            <div class="date"> <span class="num">6</span></div>
+                        </td>
+                    </tr>
+                    <tr class="the_days">
+                        <td id="7" class="day_cell in_range">
+                            <div class="date"> <span class="num">7</span></div>
+                        </td>
+                        <td id="8" class="day_cell in_range">
+                            <div class="date"> <span class="num">8</span></div>
+                        </td>
+                        <td id="9" class="day_cell in_range">
+                            <div class="date"> <span class="num">9</span></div>
+                        </td>
+                        <td id="10" class="day_cell in_range">
+                            <div class="date"> <span class="num">10</span></div>
+                        </td>
+                        <td id="11" class="day_cell in_range">
+                            <div class="date"> <span class="num">11</span></div>
+                        </td>
+                        <td id="12" class="day_cell in_range">
+                            <div class="date"> <span class="num">12</span></div>
+                        </td>
+                        <td id="13" class="day_cell in_range">
+                            <div class="date"> <span class="num">13</span></div>
+                        </td>
+                    </tr>
+                    <tr class="the_days">
+                        <td id="14" class="day_cell in_range">
+                            <div class="date"> <span class="num">14</span></div>
+                        </td>
+                        <td id="15" class="day_cell in_range">
+                            <div class="date"> <span class="num">15</span></div>
+                        </td>
+                        <td id="16" class="day_cell in_range">
+                            <div class="date"> <span class="num">16</span></div>
+                        </td>
+                        <td id="17" class="day_cell in_range">
+                            <div class="date"> <span class="num">17</span></div>
+                        </td>
+                        <td id="18" class="day_cell in_range">
+                            <div class="date"> <span class="num">18</span></div>
+                        </td>
+                        <td id="19" class="day_cell in_range">
+                            <div class="date"> <span class="num">19</span></div>
+                        </td>
+                        <td id="20" class="day_cell in_range">
+                            <div class="date"> <span class="num">20</span></div>
+                        </td>
+                    </tr>
+                    <tr class="the_days">
+                        <td id="21" class="day_cell in_range">
+                            <div class="date"> <span class="num">21</span></div>
+                        </td>
+                        <td id="22" class="day_cell in_range">
+                            <div class="date"> <span class="num">22</span></div>
+                        </td>
+                        <td id="23" class="day_cell in_range">
+                            <div class="date"> <span class="num">23</span></div>
+                        </td>
+                        <td id="24" class="day_cell in_range">
+                            <div class="date"> <span class="num">24</span></div>
+                        </td>
+                        <td id="25" class="day_cell in_range">
+                            <div class="date"> <span class="num">25</span></div>
+                        </td>
+                        <td id="26" class="day_cell in_range">
+                            <div class="date"> <span class="num">26</span></div>
+                        </td>
+                        <td id="27" class="day_cell in_range">
+                            <div class="date"> <span class="num">27</span></div>
+                        </td>
+                    </tr>
+                    <tr class="the_days">
+                        <td id="28" class="day_cell in_range">
+                            <div class="date"> <span class="num">28</span></div>
+                        </td>
+                        <td id="29" class="day_cell in_range">
+                            <div class="date"> <span class="num">29</span></div>
+                        </td>
+                        <td id="30" class="day_cell in_range">
+                            <div class="date"> <span class="num">30</span></div>
+                        </td>
+                        <td class="day_cell out_of_range">
+                            <div class="date"> <span class="num">1</span></div>
+                        </td>
+                        <td class="day_cell out_of_range">
+                            <div class="date"> <span class="num">2</span></div>
+                        </td>
+                        <td class="day_cell out_of_range">
+                            <div class="date"> <span class="num">3</span></div>
+                        </td>
+                        <td class="day_cell out_of_range">
+                            <div class="date"> <span class="num">4</span></div>
+                        </td>
+                    </tr>
+                </tbody>
             </table>
         </div>
     </body>
