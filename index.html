@@ -2,10 +2,28 @@
 <html>
     <head>
         <title>HM Calendar</title>
-        <link rel="stylesheet" href="css/tablestyle.css">
+        <link rel="stylesheet" href="css/style.css">
+        <script src="javscript/dropdown.js"></script>
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     </head>
     <body>
+        <div class="dropdown">
+            <form action="#">
+                <label for="season">Choose a Season:</label>
+                <select name="choice" id="season">
+                    <option value="1">Spring, Year 1</option>
+                    <option value="2">Summer, Year 1</option>
+                    <option value="3">Fall, Year 1</option>
+                    <option value="4">Winter, Year 1</option>
+                    <option value="5">Spring, Year 2</option>
+                    <option value="6">Summer, Year 2</option>
+                    <option value="7">Fall, Year 2</option>
+                    <option value="8">Winter, Year 2</option>
+                </select>
+                <br><br>
+                <input type="submit" value="Submit">
+            </form>
+        </div>
         <div id="Spring_1" class="season">
             <h1 class="season_title">Spring, Year 1</h1>
             <table id="month_calendar_inner" class="table table-bordered">
