@@ -1,5 +1,5 @@
 $(document).ready(function () {
-  console.log("Called 1");
+  //console.log("Called 1");
   var di = 30;
   var inactive = true;
   var inr = 1;
@@ -24,7 +24,7 @@ $(document).ready(function () {
     "Fall_2",
     "Winter_2"
   ]
-  console.log("Called 2");
+  //console.log("Called 2");
   for(k = 1;k<=8;k++){
     $("body").append(
         '<div id="' + seas[k] +'" class="season"></div>'
