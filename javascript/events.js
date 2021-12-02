@@ -29,11 +29,21 @@ function getTheEvent(fn){
       $("#"+seas[month]+' #'+Sdate).append('<div class="event tips" data-toggle="popover"></div>');
       $("#"+seas[month]+' #'+Sdate+' .event').append('<div class="qtip hidden"></div>');
       $("#"+seas[month]+' #'+Sdate+' .qtip').append('<div class="title"></div>');
-      $("#"+seas[month]+' #'+Sdate+' .title').append(name+'<br>');
+      $("#"+seas[month]+' #'+Sdate+' .title').append(fn+' '+(i+1).toString()+'<br>');
       $("#"+seas[month]+' #'+Sdate+' .title').append(place+'<br>');
       $("#"+seas[month]+' #'+Sdate+' .title').append(req);
     }
   }).fail(function(){
     console.log("An error has occurred.");
   });
+
+  function handleData(){
+    var form_data = new FormData(document.querySelector("form"));
+    console.log("form data: ");
+    for(var pair of form_data.entries()) 
+    {
+      console.log(pair[0]+ ' : '+ pair[1]);
+    }
+    return false;
+  }
 }

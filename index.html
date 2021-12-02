@@ -5,6 +5,7 @@
         <link rel="stylesheet" href="css/style.css">
         <link rel="shortcut icon" href="#">
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/js-cookie@3.0.1/dist/js.cookie.min.js"></script>
     </head>
     <body>
         <div class="dropdown">
@@ -19,6 +20,17 @@
                 <option value="7">Fall, Year 2</option>
                 <option value="8">Winter, Year 2</option>
             </select>
+        </div>
+        <div class="checkbox">
+            <form onsubmit="return handleData()">
+                <div>
+                    <input type="checkbox" name="Lyla" id="showLyla" value="yes" />
+                    <label for="showLyla">Lyla</label>
+                </div>
+                <div>
+                    <input type="submit" name="submit" value="Submit"/>
+                </div>
+            </form>
         </div>
         <div id="Spring_1" class="season">
             <h1 class="season_title">Spring, Year 1</h1>
