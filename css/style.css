@@ -10,13 +10,20 @@ body {
 	display: grid;
 	grid-template-columns: repeat(7, 1fr);
 }
+
 #month_calendar_inner tr, #month_calendar_inner tbody {
 	grid-column: 1 / -1;
 	display: grid;
 	grid-template-columns: repeat(7, 1fr);
 	width: 100%;
-	grid-auto-rows: 1fr;
+	grid-auto-rows: auto 1fr 1fr 1fr 1fr 1fr;
 }
+
+#month_calendar_inner #days_of_week {
+	height: 40px;
+	grid-auto-rows: auto;
+}
+
 .season {
 	text-align: center;
 	margin: 0% 5%;
