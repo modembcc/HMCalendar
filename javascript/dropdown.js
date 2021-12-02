@@ -14,7 +14,7 @@ $(document).ready(function () {
     for(var i=1;i<=8;i++){
         $("#"+seas[i]).hide();
     }
-    console.log(cur);
+    //console.log(cur);
     $("#"+seas[cur]).show();
     $("#season").change(function(event) {
         $("#season option:selected").each(function () {
