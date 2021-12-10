@@ -7,12 +7,26 @@ $(document).ready(function () {
     "Katie",
     "Gwen",
     "Dia",
-    "Goddess"
+    "Goddess",
+    "Woody",
+    "Aurelia",
+    "Joe",
+    "Chester",
+    "Bob",
+    "Tim",
+    "Rudolph",
+    "Louis",
+    "Ronald"
   ];
   $("#showEvents").submit(function(e) {
     e.preventDefault();
   });
-  getTheEvent("Lyla");
+  //getTheEvent("Lyla");
+  for(var i=1;i<=15;i++){
+    getTheEvent(chara[i]);
+  }
+  //console.log("Works");
+  //updateEvents();
 });
 
 function getTheEvent(fn){
@@ -45,6 +59,7 @@ function getTheEvent(fn){
       $("#"+seas[month]+' #'+Sdate+' .title').append(place+'<br>');
       $("#"+seas[month]+' #'+Sdate+' .title').append(req);
     }
+    $(".event"+fn).hide();
   }).fail(function(){
     console.log("An error has occurred.");
   });
@@ -58,10 +73,19 @@ function updateEvents(){
     "Katie",
     "Gwen",
     "Dia",
-    "Goddess"
+    "Goddess",
+    "Woody",
+    "Aurelia",
+    "Joe",
+    "Chester",
+    "Bob",
+    "Tim",
+    "Rudolph",
+    "Louis",
+    "Ronald"
   ];
   //var checkedValue = $('#showLyla:checked').val();
-  for(var i=1;i<7;i++){
+  for(var i=1;i<=15;i++){
     var checkedValue = $('#show'+chara[i]+':checked').val();
     if(checkedValue){
       //console.log('Show '+chara[i]);

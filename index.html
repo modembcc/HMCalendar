@@ -7,7 +7,7 @@
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
         <script src="https://cdn.jsdelivr.net/npm/js-cookie@3.0.1/dist/js.cookie.min.js"></script>
     </head>
-    <body>
+    <body onload="updateEvents();">
         <div class="dropdown">
             <label for="season">Choose a Season:</label>
             <select name="choice" id="season">
@@ -35,9 +35,27 @@
                 <label for="showDia">Dia</label>
                 <input type="checkbox" name="Goddess" id="showGoddess" value="1" />
                 <label for="showGoddess">Goddess</label>
+                <input type="checkbox" name="Woody" id="showWoody" value="1" />
+                <label for="showWoody">Woody</label>
+                <input type="checkbox" name="Aurelia" id="showAurelia" value="1" />
+                <label for="showAurelia">Aurelia</label>
+                <input type="checkbox" name="Joe" id="showJoe" value="1" />
+                <label for="showJoe">Joe</label>
+                <input type="checkbox" name="Chester" id="showChester" value="1" />
+                <label for="showChester">Chester</label>
+                <input type="checkbox" name="Bob" id="showBob" value="1" />
+                <label for="showBob">Bob</label>
+                <input type="checkbox" name="Tim" id="showTim" value="1" />
+                <label for="showTim">Tim</label>
+                <input type="checkbox" name="Rudolph" id="showRudolph" value="1" />
+                <label for="showRudolph">Rudolph</label>
+                <input type="checkbox" name="Louis" id="showLouis" value="1" />
+                <label for="showLouis">Louis</label>
+                <input type="checkbox" name="Ronald" id="showRonald" value="1" />
+                <label for="showRonald">Ronald</label>
             </div>
             <div>
-                <button id="submit" onclick="updateEvents()">Submit</button>
+                <button id="submit" onclick="updateEvents();">Submit</button>
             </div>
         </div>
         <div id="Spring_1" class="season">

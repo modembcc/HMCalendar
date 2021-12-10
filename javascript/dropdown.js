@@ -24,4 +24,6 @@ $(document).ready(function () {
             cur = tmp;
         });
     });
+    /*updateEvents();
+    console.log("Did this");*/
 });
