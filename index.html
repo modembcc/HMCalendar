@@ -22,15 +22,23 @@
             </select>
         </div>
         <div class="checkbox">
-            <form onsubmit="return handleData()">
-                <div>
-                    <input type="checkbox" name="Lyla" id="showLyla" value="yes" />
-                    <label for="showLyla">Lyla</label>
-                </div>
-                <div>
-                    <input type="submit" name="submit" value="Submit"/>
-                </div>
-            </form>
+            <div>
+                <input type="checkbox" name="Lyla" id="showLyla" value="1" />
+                <label for="showLyla">Lyla</label>
+                <input type="checkbox" name="Gina" id="showGina" value="1" />
+                <label for="showGina">Gina</label>
+                <input type="checkbox" name="Katie" id="showKatie" value="1" />
+                <label for="showKatie">Katie</label>
+                <input type="checkbox" name="Gwen" id="showGwen" value="1" />
+                <label for="showGwen">Gwen</label>
+                <input type="checkbox" name="Dia" id="showDia" value="1" />
+                <label for="showDia">Dia</label>
+                <input type="checkbox" name="Goddess" id="showGoddess" value="1" />
+                <label for="showGoddess">Goddess</label>
+            </div>
+            <div>
+                <button id="submit" onclick="updateEvents()">Submit</button>
+            </div>
         </div>
         <div id="Spring_1" class="season">
             <h1 class="season_title">Spring, Year 1</h1>

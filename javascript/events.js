@@ -1,5 +1,17 @@
 $(document).ready(function () {
   var text = "";
+  var chara = [
+    "Error",
+    "Lyla",
+    "Gina",
+    "Katie",
+    "Gwen",
+    "Dia",
+    "Goddess"
+  ];
+  $("#showEvents").submit(function(e) {
+    e.preventDefault();
+  });
   getTheEvent("Lyla");
 });
 
@@ -14,7 +26,7 @@ function getTheEvent(fn){
     "Summer_2",
     "Fall_2",
     "Winter_2"
-  ]
+  ];
   $.getJSON('events/'+fn+'.json', function(data){
     var len = data.events.length;
     for(var i=0;i<len;i++){
@@ -26,7 +38,7 @@ function getTheEvent(fn){
       var name = data.events[i]["Event"];
       var place = data.events[i]["Place"];
       var req = data.events[i]["Req"];
-      $("#"+seas[month]+' #'+Sdate).append('<div class="event tips" data-toggle="popover"></div>');
+      $("#"+seas[month]+' #'+Sdate).append('<div class="event tips event'+fn+'" data-toggle="popover"></div>');
       $("#"+seas[month]+' #'+Sdate+' .event').append('<div class="qtip hidden"></div>');
       $("#"+seas[month]+' #'+Sdate+' .qtip').append('<div class="title"></div>');
       $("#"+seas[month]+' #'+Sdate+' .title').append(fn+' '+(i+1).toString()+'<br>');
@@ -36,14 +48,27 @@ function getTheEvent(fn){
   }).fail(function(){
     console.log("An error has occurred.");
   });
+}
 
-  function handleData(){
-    var form_data = new FormData(document.querySelector("form"));
-    console.log("form data: ");
-    for(var pair of form_data.entries()) 
-    {
-      console.log(pair[0]+ ' : '+ pair[1]);
+function updateEvents(){
+  var chara = [
+    "Error",
+    "Lyla",
+    "Gina",
+    "Katie",
+    "Gwen",
+    "Dia",
+    "Goddess"
+  ];
+  //var checkedValue = $('#showLyla:checked').val();
+  for(var i=1;i<7;i++){
+    var checkedValue = $('#show'+chara[i]+':checked').val();
+    if(checkedValue){
+      //console.log('Show '+chara[i]);
+      $(".event"+chara[i]).show();
     }
-    return false;
+    else{
+      $(".event"+chara[i]).hide();
+    }
   }
 }
