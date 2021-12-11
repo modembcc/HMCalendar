@@ -4,14 +4,14 @@
       "Month": 2,
       "Start Date": 9,
       "Event": "Contest Announcement",
-      "Place": "Homestead",
+      "Place": "Leave house",
       "Req": "Gina fp 25"
     },
     {
       "Month": 2,
       "Start Date": 14,
       "Event": "Researching the Dress",
-      "Place": "Homestead",
+      "Place": "Leave house",
       "Req": "Gina fp 30"
     },
     {
@@ -53,7 +53,7 @@
       "Month": 3,
       "Start Date": 16,
       "Event": "Special Delivery! 2",
-      "Place": "Homestead",
+      "Place": "Leave house",
       "Req": "Gina fp 80"
     },
     {
@@ -67,14 +67,14 @@
       "Month": 4,
       "Start Date": 25,
       "Event": "The Goddess Dress",
-      "Place": "Homestead",
+      "Place": "Leave house",
       "Req": "Gina fp 100"
     },
     {
       "Month": 5,
       "Start Date": 26,
       "Event": "Gina's Victory!",
-      "Place": "Homestead",
+      "Place": "Leave house",
       "Req": "Gina fp 110"
     },
     {
