@@ -68,13 +68,17 @@ function getTheEvent(fn) {
         '<div class="title"></div>'
       );
       $("#" + seas[month] + " #" + Sdate + " ." + fn + en + " .title").append(
-        "<h3>" + fn + " " + (i + 1).toString() + "</h3>"
+        `<h5 class="card bg-info text-dark py-1">` +
+          fn +
+          " " +
+          (i + 1).toString() +
+          "</h5>"
       );
       $("#" + seas[month] + " #" + Sdate + " ." + fn + en + " .title").append(
-        "<p>" + place + "</p>"
+        `<p class="text-dark">🛖 : ` + place + "</p>"
       );
       $("#" + seas[month] + " #" + Sdate + " ." + fn + en + " .title").append(
-        "<p>" + req + "</p>"
+        `<p class="text-dark">🛠️ : ` + req + "</p>"
       );
     }
     $(".event").hide();
