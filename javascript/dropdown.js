@@ -1,29 +1,30 @@
 $(document).ready(function () {
-    var seas = [
-        "Error",
-        "Spring_1",
-        "Summer_1",
-        "Fall_1",
-        "Winter_1",
-        "Spring_2",
-        "Summer_2",
-        "Fall_2",
-        "Winter_2"
-      ]
-    var cur = 1;
-    for(var i=1;i<=8;i++){
-        $("#"+seas[i]).hide();
-    }
-    //console.log(cur);
-    $("#"+seas[cur]).show();
-    $("#season").change(function(event) {
-        $("#season option:selected").each(function () {
-            var tmp = $(this).val();
-            $("#"+seas[cur]).hide();
-            $("#"+seas[tmp]).show();
-            cur = tmp;
-        });
+  const seas = [
+    { id: "Error" },
+    { id: "Spring_1", title: "Spring, Year 1" },
+    { id: "Summer_1", title: "Summer, Year 1" },
+    { id: "Fall_1", title: "Fall, Year 1" },
+    { id: "Winter_1", title: "Winter, Year 1" },
+    { id: "Spring_2", title: "Spring, Year 2" },
+    { id: "Summer_2", title: "Summer, Year 2" },
+    { id: "Fall_2", title: "Fall, Year 2" },
+    { id: "Winter_2", title: "Winter, Year 2" },
+  ];
+  for (let j = 1; j <= 8; j++) {
+    if (j == 1) $("#" + seas[j].id).show();
+    else $("#" + seas[j].id).hide();
+  }
+  for (let i = 1; i <= 8; i++) {
+    $("#season_dropdown").append(
+      `<li id="option-${seas[i].id}" style="cursor:pointer;"><a class="dropdown-item">${seas[i].title}</a></li>`
+    );
+    $(`#option-${seas[i].id}`).click(() => {
+      for (let j = 1; j <= 8; j++) {
+        if (j == i) $("#" + seas[j].id).show();
+        else $("#" + seas[j].id).hide();
+      }
     });
-    /*updateEvents();
+  }
+  /*updateEvents();
     console.log("Did this");*/
 });
