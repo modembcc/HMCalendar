@@ -21,7 +21,7 @@ $(document).ready(function () {
   $("#showEvents").submit(function(e) {
     e.preventDefault();
   });
-  //getTheEvent("Lyla");
+  //getTheEvent("Gina");
   for(var i=1;i<=15;i++){
     getTheEvent(chara[i]);
   }
@@ -52,14 +52,15 @@ function getTheEvent(fn){
       var name = data.events[i]["Event"];
       var place = data.events[i]["Place"];
       var req = data.events[i]["Req"];
-      $("#"+seas[month]+' #'+Sdate).append('<div class="event tips event'+fn+'" data-toggle="popover"></div>');
-      $("#"+seas[month]+' #'+Sdate+' .event').append('<div class="qtip hidden"></div>');
-      $("#"+seas[month]+' #'+Sdate+' .qtip').append('<div class="title"></div>');
-      $("#"+seas[month]+' #'+Sdate+' .title').append(fn+' '+(i+1).toString()+'<br>');
-      $("#"+seas[month]+' #'+Sdate+' .title').append(place+'<br>');
-      $("#"+seas[month]+' #'+Sdate+' .title').append(req);
+      var en = (i+1).toString();
+      $("#"+seas[month]+' #'+Sdate).append('<div class="event tips event'+fn+' '+fn+en+'" data-toggle="popover"></div>');
+      $("#"+seas[month]+' #'+Sdate+' .'+fn+en).append('<div class="qtip hidden"></div>');
+      $("#"+seas[month]+' #'+Sdate+' .'+fn+en+' .qtip').append('<div class="title"></div>');
+      $("#"+seas[month]+' #'+Sdate+' .'+fn+en+' .title').append(fn+' '+(i+1).toString()+'<br>');
+      $("#"+seas[month]+' #'+Sdate+' .'+fn+en+' .title').append(place+'<br>');
+      $("#"+seas[month]+' #'+Sdate+' .'+fn+en+' .title').append(req);
     }
-    $(".event"+fn).hide();
+    $(".event").hide();
   }).fail(function(){
     console.log("An error has occurred.");
   });
