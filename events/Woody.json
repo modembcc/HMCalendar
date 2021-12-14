@@ -1,0 +1,81 @@
+{
+  "events": [
+    {
+      "Month": 2,
+      "Start Date": 16,
+      "Event": "Martha's Memory",
+      "Place": "Beach",
+      "Req": "Martha fp 10"
+    },
+    {
+      "Month": 3,
+      "Start Date": 15,
+      "Event": "Woody's Memory",
+      "Place": "Leave house",
+      "Req": "Woody fp 15"
+    },
+    {
+      "Month": 4,
+      "Start Date": 11,
+      "Event": "Wallace's Memory",
+      "Place": "Leave house",
+      "Req": "Wallace fp 15"
+    },
+    {
+      "Month": 5,
+      "Start Date": 6,
+      "Event": "Unearthing the Goddess Statue",
+      "Place": "Cafe",
+      "Req": "Woody fp 30"
+    },
+    {
+      "Month": 5,
+      "Start Date": 6,
+      "Event": "The Lost Goddess Statue",
+      "Place": "Goddess spring",
+      "Req": "Seen Prev."
+    },
+    {
+      "Month": 5,
+      "Start Date": 7,
+      "Event": "Request for Memories",
+      "Place": "Carpentry",
+      "Req": "Seen Prev., hold fragment"
+    },
+    {
+      "Month": 5,
+      "Start Date": 7,
+      "Event": "Sending a Care Package",
+      "Place": "Villa",
+      "Req": "Seen Prev."
+    },
+    {
+      "Month": 5,
+      "Start Date": 7,
+      "Event": "The Goddess' Original Form",
+      "Place": "Cafe",
+      "Req": "Seen Prev. hold Package"
+    },
+    {
+      "Month": 6,
+      "Start Date": 28,
+      "Event": "The Goddess' Hair Color",
+      "Place": "Leave house",
+      "Req": "Woody fp 40"
+    },
+    {
+      "Month": 7,
+      "Start Date": 10,
+      "Event": "The Resurrected Goddess Statue!",
+      "Place": "Leave house",
+      "Req": "Seen Prev."
+    },
+    {
+      "Month": 8,
+      "Start Date": 8,
+      "Event": "The Famous Harvest Festival!",
+      "Place": "Plaza",
+      "Req": "Seen Prev."
+    }
+  ]
+}
