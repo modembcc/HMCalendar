@@ -1,0 +1,88 @@
+{
+  "events": [
+    {
+      "Month": 1,
+      "Start Date": 22,
+      "Event": "The Goddess' Love Conference 1",
+      "Place": "Goddess Spring",
+      "Req": "Goddess fp 20"
+    },
+    {
+      "Month": 2,
+      "Start Date": 13,
+      "Event": "The Goddess' Love Conference 2",
+      "Place": "Goddess Spring",
+      "Req": "Goddess fp 25"
+    },
+    {
+      "Month": 3,
+      "Start Date": 4,
+      "Event": "The Goddess' Love Conference 3",
+      "Place": "Goddess Spring",
+      "Req": "Goddess fp 30"
+    },
+    {
+      "Month": 3,
+      "Start Date": 25,
+      "Event": "The Goddess' Name",
+      "Place": "Goddess spring",
+      "Req": "Goddess fp 35"
+    },
+    {
+      "Month": 4,
+      "Start Date": 25,
+      "Event": "Temple of Memories",
+      "Place": "Leave house",
+      "Req": "20 mines"
+    },
+    {
+      "Month": 4,
+      "Start Date": 25,
+      "Event": "The Road to the Temple",
+      "Place": "Mine",
+      "Req": "Seen Prev."
+    },
+    {
+      "Month": 5,
+      "Start Date": 7,
+      "Event": "Rudolph's Cooperate",
+      "Place": "Mine",
+      "Req": "Goddess fp 40, 30 mines"
+    },
+    {
+      "Month": 5,
+      "Start Date": 16,
+      "Event": "The Closed Door",
+      "Place": "Leave house",
+      "Req": "Goddess fp 50, 40 mines"
+    },
+    {
+      "Month": 5,
+      "Start Date": 16,
+      "Event": "The Goddess' Wish",
+      "Place": "Goddess spring",
+      "Req": "Seen Prev."
+    },
+    {
+      "Month": 5,
+      "Start Date": 29,
+      "Event": "Moonlight Key",
+      "Place": "Goddess spring",
+      "Req": "Have moonlight stone"
+    },
+    {
+      "Month": 5,
+      "Start Date": 30,
+      "Event": "The Harvest Goddess Temple",
+      "Place": "Mine",
+      "Req": "Seen Prev."
+    },
+    {
+      "Month": 7,
+      "Start Date": 11,
+      "Event": "The Temple As Cultural Property",
+      "Place": "Leave house",
+      "Req": "Goddess fp 80"
+    }
+  ]
+}
