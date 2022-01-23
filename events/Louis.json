@@ -1,0 +1,95 @@
+{
+  "events": [
+    {
+      "Month": 1,
+      "Start Date": 12,
+      "Event": "The Tool Shop Owner Is An Inventorn",
+      "Place": "Item shop",
+      "Req": "Louis fp 20"
+    },
+    {
+      "Month": 2,
+      "Start Date": 2,
+      "Event": "Experiments With Synthetic Crops",
+      "Place": "Item shop",
+      "Req": "Louis fp 25"
+    },
+    {
+      "Month": 2,
+      "Start Date": 21,
+      "Event": "Completed Synthetic Crop Seeds...?",
+      "Place": "Item shop",
+      "Req": "Louis fp 30"
+    },
+    {
+      "Month": 3,
+      "Start Date": 12,
+      "Event": "Completed Synthetic Crop Seeds!",
+      "Place": "Item shop",
+      "Req": "Louis fp 35"
+    },
+    {
+      "Month": 4,
+      "Start Date": 6,
+      "Event": "The Counter-Robot Crow",
+      "Place": "Item shop",
+      "Req": "Katie fp 35, has gradma recipe"
+    },
+    {
+      "Month": 4,
+      "Start Date": 6,
+      "Event": "Research Start!",
+      "Place": "Item shop",
+      "Req": "Silver ore, Copper ore, lumber"
+    },
+    {
+      "Month": 5,
+      "Start Date": 26,
+      "Event": "Scarecrow Activate!",
+      "Place": "Leave house",
+      "Req": "Louis fp 40"
+    },
+    {
+      "Month": 6,
+      "Start Date": 11,
+      "Event": "The Flying Robot's Runaway Accident?",
+      "Place": "Leave house",
+      "Req": "Louis fp 55"
+    },
+    {
+      "Month": 6,
+      "Start Date": 11,
+      "Event": "Powering Up The Scarecrow!",
+      "Place": "Item shop",
+      "Req": "Orichalcum, gold ore"
+    },
+    {
+      "Month": 7,
+      "Start Date": 12,
+      "Event": "Super Scarecrow!",
+      "Place": "Leave house",
+      "Req": "Seen Prev."
+    },
+    {
+      "Month": 8,
+      "Start Date": 8,
+      "Event": "Leaf Valley's Master Inventor",
+      "Place": "Item shop",
+      "Req": "Louis fp 60"
+    },
+    {
+      "Month": 8,
+      "Start Date": 15,
+      "Event": "The Popular Master Inventor",
+      "Place": "Item shop",
+      "Req": "Louis fp 65"
+    },
+    {
+      "Month": 8,
+      "Start Date": 22,
+      "Event": "Fruit-Carving Research",
+      "Place": "Item shop",
+      "Req": "Louis fp 70"
+    }
+  ]
+}
