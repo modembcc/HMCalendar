@@ -1,0 +1,81 @@
+{
+  "events": [
+    {
+      "Month": 1,
+      "Start Date": 2,
+      "Event": "Let's Take Care of Animals!",
+      "Place": "Ranch",
+      "Req": "Work part time"
+    },
+    {
+      "Month": 2,
+      "Start Date": 2,
+      "Event": "Raise a Horse!",
+      "Place": "Leave house",
+      "Req": "Bob fp 30, work a lot"
+    },
+    {
+      "Month": 2,
+      "Start Date": 12,
+      "Event": "Aim For the Race!",
+      "Place": "Leave house",
+      "Req": "Bob fp 30, met Gwen, love your horse"
+    },
+    {
+      "Month": 3,
+      "Start Date": 15,
+      "Event": "Train For the Big Race!",
+      "Place": "Leave house",
+      "Req": "Bob fp 40, love your horse"
+    },
+    {
+      "Month": 4,
+      "Start Date": 6,
+      "Event": "Can You Beat Me?",
+      "Place": "Leave house",
+      "Req": "Bob fp 50, love your horse, bring green herbs and pontata"
+    },
+    {
+      "Month": 4,
+      "Start Date": 7,
+      "Event": "I Won't Lose To That!",
+      "Place": "Leave house",
+      "Req": "Beat Bob, bring green herbs and pontata"
+    },
+    {
+      "Month": 5,
+      "Start Date": 22,
+      "Event": "The Fastest Robot Horse FT!",
+      "Place": "Horse track",
+      "Req": "Again, bring green herbs and pontata"
+    },
+    {
+      "Month": 5,
+      "Start Date": 23,
+      "Event": "Battle of Pride! The Robot Horse ST!",
+      "Place": "Leave house",
+      "Req": "Again, bring green herbs and pontata"
+    },
+    {
+      "Month": 6,
+      "Start Date": 2,
+      "Event": "The Glory of Victory!",
+      "Place": "Plaza",
+      "Req": "Bob fp 70"
+    },
+    {
+      "Month": 6,
+      "Start Date": 7,
+      "Event": "A Toast to the Victory!",
+      "Place": "Cafe",
+      "Req": "Bob fp 80, et Wallace"
+    },
+    {
+      "Month": 6,
+      "Start Date": 17,
+      "Event": "The Two Farm-Owners",
+      "Place": "Bob's Ranch",
+      "Req": "Bob fp 90"
+    }
+  ]
+}
