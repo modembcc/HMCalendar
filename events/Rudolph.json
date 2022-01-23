@@ -1,0 +1,74 @@
+{
+  "events": [
+    {
+      "Month": 2,
+      "Start Date": 15,
+      "Event": "Rudolph's Drunken Tale: The Diamond Vein",
+      "Place": "Pub",
+      "Req": "Rudolph fp 20"
+    },
+    {
+      "Month": 2,
+      "Start Date": 29,
+      "Event": "Rudolph's Drunken Tale: To The Next Country",
+      "Place": "Pub",
+      "Req": "Rudolph fp 25"
+    },
+    {
+      "Month": 3,
+      "Start Date": 13,
+      "Event": "The Kindness of the People of the Valley",
+      "Place": "Pub",
+      "Req": "Rudolph fp 30"
+    },
+    {
+      "Month": 4,
+      "Start Date": 15,
+      "Event": "Where the Fossil is Hidden",
+      "Place": "Leave house",
+      "Req": "mine 25"
+    },
+    {
+      "Month": 4,
+      "Start Date": 21,
+      "Event": "Save Rudolph!",
+      "Place": "Mine",
+      "Req": "Rudolph fp 40, bring hammer"
+    },
+    {
+      "Month": 6,
+      "Start Date": 16,
+      "Event": "The Fossil's Price",
+      "Place": "Leave house",
+      "Req": "Rudolph fp 50, mine 30"
+    },
+    {
+      "Month": 7,
+      "Start Date": 7,
+      "Event": "Another Big Discovery: The Hand Fossil",
+      "Place": "Digsite",
+      "Req": "mine 35"
+    },
+    {
+      "Month": 7,
+      "Start Date": 20,
+      "Event": "Another Big Discovery: The Leg Fossil",
+      "Place": "Mine",
+      "Req": "mine 40"
+    },
+    {
+      "Month": 8,
+      "Start Date": 3,
+      "Event": "One More Big Discovery: The Body Fossil",
+      "Place": "Mine",
+      "Req": "mine 45"
+    },
+    {
+      "Month": 8,
+      "Start Date": 16,
+      "Event": "Finally, the Fossil Assembled!",
+      "Place": "Mine",
+      "Req": "mine 50"
+    }
+  ]
+}
