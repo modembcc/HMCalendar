@@ -1,0 +1,88 @@
+{
+  "events": [
+    {
+      "Month": 3,
+      "Start Date": 1,
+      "Event": "The Painting in the Church Basement",
+      "Place": "Church",
+      "Req": "Mine 20"
+    },
+    {
+      "Month": 3,
+      "Start Date": 6,
+      "Event": "Aurelia's Anger",
+      "Place": "Church",
+      "Req": "Chester fp 20"
+    },
+    {
+      "Month": 3,
+      "Start Date": 11,
+      "Event": "Hidden Under the Rock",
+      "Place": "Church",
+      "Req": "Seen Prev."
+    },
+    {
+      "Month": 3,
+      "Start Date": 12,
+      "Event": "Discovery of the Basement",
+      "Place": "Church",
+      "Req": "Chester fp 30"
+    },
+    {
+      "Month": 4,
+      "Start Date": 8,
+      "Event": "Chester's Wish",
+      "Place": "Leave house",
+      "Req": "Mine 30"
+    },
+    {
+      "Month": 4,
+      "Start Date": 9,
+      "Event": "What the Ore Completes",
+      "Place": "Church",
+      "Req": "Orichalcum, Blue Rock, Mineral Crystal, Rare Metal"
+    },
+    {
+      "Month": 5,
+      "Start Date": 1,
+      "Event": "Bewitching Shine",
+      "Place": "Leave house",
+      "Req": "Mine 40"
+    },
+    {
+      "Month": 5,
+      "Start Date": 21,
+      "Event": "Goddess Legend: The Power That Bore Nature",
+      "Place": "Church",
+      "Req": "Chester fp 40, Say YES"
+    },
+    {
+      "Month": 6,
+      "Start Date": 5,
+      "Event": "Goddess Legend: The Dragon's Seal",
+      "Place": "Church",
+      "Req": "Chester fp 50"
+    },
+    {
+      "Month": 7,
+      "Start Date": 7,
+      "Event": "Goddess Legend: The Knight That Protects the Goddess",
+      "Place": "Church",
+      "Req": "Chester fp 60"
+    },
+    {
+      "Month": 7,
+      "Start Date": 24,
+      "Event": "Goddess Legend: Saving the Pure One",
+      "Place": "Church",
+      "Req": "Chester fp 70"
+    },
+    {
+      "Month": 8,
+      "Start Date": 22,
+      "Event": "The Saved Man",
+      "Place": "Church",
+      "Req": "Chester fp 80"
+    }
+  ]
+}
