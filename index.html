@@ -25,6 +25,14 @@
       integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
       crossorigin="anonymous"
     ></script>
+
+    <!-- Nightmode switch-->
+    <label class="switch">
+      <input type="checkbox">
+      <span class="slider round"></span>
+    </label>
+
+    <!-- Button trigger modal -->
     <div class="d-flex w-100 align-items-center justify-content-center py-2">
       <button
         type="button"
@@ -46,7 +54,6 @@
       </button>
       <ul class="dropdown-menu" id="season_dropdown"></ul>
     </div>
-    <!-- Button trigger modal -->
 
     <!-- Modal -->
     <div
@@ -236,6 +243,7 @@
       </div>
     </div>
 
+    <!-- Actual Calendar -->
     <div id="Spring_1" class="season">
       <h1 class="season_title">Spring, Year 1</h1>
       <table id="month_calendar_inner" class="table table-bordered">
@@ -1307,9 +1315,11 @@
         </tbody>
       </table>
     </div>
+
     <!--Import scripts-->
     <script src="javascript/dropdown.js"></script>
     <script src="javascript/jquery.csv.js"></script>
     <script src="javascript/events.js"></script>
+    <script src="javascript/darkmode.js"></script>
   </body>
 </html>

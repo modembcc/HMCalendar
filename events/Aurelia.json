@@ -1,0 +1,95 @@
+{
+  "events": [
+    {
+      "Month": 2,
+      "Start Date": 16,
+      "Event": "The Sound of the Flute at Mallard Lake",
+      "Place": "Cafe",
+      "Req": "Aurelia fp 20, Met Wallace"
+    },
+    {
+      "Month": 2,
+      "Start Date": 26,
+      "Event": "The Legendary Flute Sound",
+      "Place": "Cafe",
+      "Req": "Aurelia fp 30, Met Katie&Woody"
+    },
+    {
+      "Month": 3,
+      "Start Date": 7,
+      "Event": "The Ocarina Challenge!",
+      "Place": "Church",
+      "Req": "Aurelia fp 40, Ocarina in bag"
+    },
+    {
+      "Month": 3,
+      "Start Date": 8,
+      "Event": "The Mysterious Blue Bird",
+      "Place": "Carpentry",
+      "Req": "Seen Previous Event"
+    },
+    {
+      "Month": 4,
+      "Start Date": 3,
+      "Event": "Legend of the Blue Bird",
+      "Place": "Cafe",
+      "Req": "Aurelia fp 50"
+    },
+    {
+      "Month": 5,
+      "Start Date": 7,
+      "Event": "Ocarina Training",
+      "Place": "Lake",
+      "Req": "Aurelia fp 60, Has Ocarina"
+    },
+    {
+      "Month": 5,
+      "Start Date": 9,
+      "Event": "Playing the Ocarina at the Lake",
+      "Place": "Church",
+      "Req": "Seen Previous Event"
+    },
+    {
+      "Month": 6,
+      "Start Date": 6,
+      "Event": "Call the Bluebird!",
+      "Place": "Leave house",
+      "Req": "Aurelia fp 70"
+    },
+    {
+      "Month": 6,
+      "Start Date": 7,
+      "Event": "Flat-out Refusal...",
+      "Place": "Leave house",
+      "Req": "Aurelia fp 80"
+    },
+    {
+      "Month": 6,
+      "Start Date": 7,
+      "Event": "The Ocarina Can't Be Played",
+      "Place": "Church",
+      "Req": "Aurelia fp 90"
+    },
+    {
+      "Month": 7,
+      "Start Date": 2,
+      "Event": "Aurelia and the Blue Bird",
+      "Place": "Leave house",
+      "Req": "Aurelia fp 100"
+    },
+    {
+      "Month": 7,
+      "Start Date": 2,
+      "Event": "Throwing Caution to the Wind",
+      "Place": "Church",
+      "Req": "Seen Previous Event"
+    },
+    {
+      "Month": 8,
+      "Start Date": 7,
+      "Event": "The Man Who Bought the Ocarina",
+      "Place": "Cafe",
+      "Req": "Aurelia fp 100"
+    }
+  ]
+}
