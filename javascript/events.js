@@ -75,10 +75,10 @@ function getTheEvent(fn) {
           "</h5>"
       );
       $("#" + seas[month] + " #" + Sdate + " ." + fn + en + " .title").append(
-        `<p class="text-dark">🛖 : ` + place + "</p>"
+        `<p>🛖 : ` + place + "</p>"
       );
       $("#" + seas[month] + " #" + Sdate + " ." + fn + en + " .title").append(
-        `<p class="text-dark">🛠️ : ` + req + "</p>"
+        `<p>🛠️ : ` + req + "</p>"
       );
     }
     $(".event").hide();

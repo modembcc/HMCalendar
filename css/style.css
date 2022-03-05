@@ -5,7 +5,7 @@ body {
 	text-align: center;
 }
 .dark-mode {
-    background-color: black;
+    background-color: #313030;
     color: white;
 }
 /* declare a 7 column grid on the table */
@@ -13,6 +13,10 @@ body {
 	width: 100%;
 	display: grid;
 	grid-template-columns: repeat(7, 1fr);
+}
+
+.dark-mode #month_calendar_inner{
+    color: white;
 }
 
 #month_calendar_inner tr, #month_calendar_inner tbody {
@@ -70,7 +74,13 @@ input:focus + .slider {
 	box-shadow: 0 0 1px #2196F3;
 }
   
-input:checked + .slider:before {
+input:checked + .slider:before{
+	-webkit-transform: translateX(26px);
+	-ms-transform: translateX(26px);
+	transform: translateX(26px);
+}
+
+input:checked + .slider #cur_mode{
 	-webkit-transform: translateX(26px);
 	-ms-transform: translateX(26px);
 	transform: translateX(26px);
@@ -84,7 +94,18 @@ input:checked + .slider:before {
 .slider.round:before {
 	border-radius: 50%;
 }
-  
+
+.slider #cur_mode {
+	max-width: 60%;
+	max-height: 60%;
+	display: block;
+	z-index: 1;
+	position: relative;
+	top: 20%;
+	left: 10%;
+	-webkit-transition: .4s;
+	transition: .4s;
+} 
 
 #month_calendar_inner #days_of_week {
 	height: 40px;
@@ -111,6 +132,11 @@ input:checked + .slider:before {
 	padding: 10px 6px;
 	font-size: 13px;
 }
+
+.dark-mode #month_calendar_inner #days_of_week th {
+    color: white;
+}
+
 #month_calendar_inner td {
 	min-height: 50px;
 	display: flex;
@@ -125,6 +151,7 @@ input:checked + .slider:before {
 	flex: 0 0 auto;
 	align-self: flex-end;
 }
+
 #month_calendar_inner .event {
 	flex: 0 0 auto;
 	font-size: 13px;
@@ -142,9 +169,23 @@ input:checked + .slider:before {
 #month_calendar_inner .out_of_range .num{
 	color: slategrey;
 }
+
+#month_calendar_inner .out_of_range .num{
+	color: slategrey;
+}
+
 #month_calendar_inner .in_range .num{
 	color: blue;
 }
+
+.dark-mode #month_calendar_inner .in_range .num {
+    color: white;
+}
+
+.dark-mode .modal-dialog{
+	color: black;
+}
+
 /* ============================ Mobile Responsiveness ============================*/
 @media(max-width: 768px) {
 	#month_calendar_inner #days_of_week, #month_calendar_inner .out_of_range {
